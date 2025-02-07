@@ -1,11 +1,17 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 function SmartDashboard() {
   return (
     <div className="min-h-screen">
       <div className="container mx-auto px-4 py-12">
         {/* Header Section */}
-        <div className="text-center mb-16">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-center mb-16"
+        >
           <span className="text-blue-700 px-4 py-2 font-medium">
             GPS Tracking
           </span>
@@ -15,10 +21,16 @@ function SmartDashboard() {
           <p className="text-gray-600 max-w-3xl mx-auto text-lg leading-relaxed">
           Work smarter, not harder. We present our dashboard where you can access all vehicles and drivers information. Plan ahead of time for fuel, scale, weigh stations or upcoming weather.
           </p>
-        </div>
+        </motion.div>
 
         {/* Monitor Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center p-8">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+          whileHover={{ y: -5, transition: { duration: 0.2 } }}
+          className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center p-8"
+        >
           <div className="space-y-8">
             <h2 className="text-4xl font-bold text-gray-900 leading-tight">
             Monitor every vehicle
@@ -36,10 +48,16 @@ function SmartDashboard() {
               className="w-full h-full object-cover"
             />
           </div>
-        </div>
+        </motion.div>
 
         {/* Map and Info Section */}
-        <div className="flex flex-col lg:flex-row gap-4 md:gap-6 lg:gap-8 p-4 md:p-6 lg:p-8 bg-gray-50">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          whileHover={{ y: -5, transition: { duration: 0.2 } }}
+          className="flex flex-col lg:flex-row gap-4 md:gap-6 lg:gap-8 p-4 md:p-6 lg:p-8 bg-gray-50"
+        >
           {/* Map Container */}
           <div className="w-full lg:w-1/2 relative">
             {/* Background Map */}
@@ -124,10 +142,16 @@ function SmartDashboard() {
               Explore Features
             </button>
           </div>
-        </div>
+        </motion.div>
 
         {/* Weather Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center p-8 mt-12">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          whileHover={{ y: -5, transition: { duration: 0.2 } }}
+          className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center p-8 mt-12"
+        >
           <div className="space-y-8">
             <h2 className="text-4xl font-bold text-gray-900 leading-tight">
               Weather Map
@@ -169,10 +193,16 @@ function SmartDashboard() {
               className="w-full h-full object-cover"
             />
           </div>
-        </div>
+        </motion.div>
 
         {/* Live Location Share Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center p-8 mt-12 bg-gray-50 rounded-xl">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          whileHover={{ y: -5, transition: { duration: 0.2 } }}
+          className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center p-8 mt-12 bg-gray-50 rounded-xl"
+        >
           {/* Left side - Map Preview */}
           <div className="relative">
             <img src="https://www.usfasteld.com/wp-content/uploads/2023/08/features-04.png" alt="" />
@@ -216,7 +246,7 @@ function SmartDashboard() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

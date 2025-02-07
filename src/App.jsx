@@ -1,5 +1,5 @@
 import React from 'react'
-import { Compliance, Featurs, Header, Integrations, Main, SmartDashboart } from './components/index'
+import { Compliance, Contact, DownloadAndPricePage, Featurs, Footer, Header, Integrations, Main, Slides, SmartDashboart } from './components/index'
 
 function App() {
   return (
@@ -10,6 +10,10 @@ function App() {
       <Compliance/>
       <SmartDashboart/>
       <Integrations/>
+      <Slides/>
+      <DownloadAndPricePage/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }
