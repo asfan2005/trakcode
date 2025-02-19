@@ -16,7 +16,7 @@ function Header() {
               <div className="absolute -bottom-1 w-full h-0.5 bg-yellow-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
             </div>
             <div className="ml-3">
-              <span className="text-xl font-bold text-white tracking-wider">US FAST</span>
+              <span className="text-xl font-bold text-white tracking-wider">TheBest</span>
               <span className="text-xl font-bold text-yellow-400 tracking-wider">ELD</span>
             </div>
           </Link>
