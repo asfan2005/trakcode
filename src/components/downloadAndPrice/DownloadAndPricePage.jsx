@@ -1,14 +1,17 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 
 function DownloadAndPricePage() {
+    const { t } = useTranslation();
+
     // Download funksiyalarini qo'shamiz
     const handleDownload = (url) => {
         // URL mavjud bo'lsa, yangi oynada ochish
         if (url) {
             window.open(url, '_blank');
         } else {
-            alert("Download link is not available at the moment");
+            alert(t('downloadPage.alertMessage'));
         }
     };
 
@@ -24,10 +27,10 @@ function DownloadAndPricePage() {
                     className="text-center mb-16"
                 >
                     <h2 className="text-blue-600 text-4xl font-bold mb-2">
-                        JOIN THE OTHERS
+                        {t('downloadPage.joinOthers')}
                     </h2>
                     <h1 className="text-gray-800 text-6xl font-extrabold">
-                        Download Apps & Manuals
+                        {t('downloadPage.title')}
                     </h1>
                 </motion.div>
 
@@ -44,12 +47,12 @@ function DownloadAndPricePage() {
                         <div className="aspect-w-16 aspect-h-9 mb-6">
                             <img
                                 src="https://www.usfasteld.com/wp-content/uploads/2023/08/users-stacked.png"
-                                alt="Android App Preview"
+                                alt={t('downloadPage.androidApp.alt')}
                                 className="rounded-xl object-cover w-full h-48"
                             />
                         </div>
                         <h3 className="text-xl font-bold text-gray-800 mb-3">
-                            US FAST ELD Driver Android App
+                            {t('downloadPage.androidApp.title')}
                         </h3>
                         <div className="flex items-center gap-2 mb-4 text-gray-600">
                             <div className="flex -space-x-2">
@@ -57,7 +60,7 @@ function DownloadAndPricePage() {
                             </div>
                             <div className="flex items-center">
                                 <span className="font-semibold text-gray-700">1000</span>
-                                <span className="ml-1 text-gray-500">downloads</span>
+                                <span className="ml-1 text-gray-500">{t('downloadPage.downloads')}</span>
                             </div>
                         </div>
                         <button 
@@ -67,7 +70,7 @@ function DownloadAndPricePage() {
                             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
-                            Download Now
+                            {t('downloadPage.downloadNow')}
                         </button>
                     </motion.div>
 
@@ -82,12 +85,12 @@ function DownloadAndPricePage() {
                         <div className="aspect-w-16 aspect-h-9 mb-6">
                             <img
                                 src="https://www.usfasteld.com/wp-content/uploads/2023/08/users-stacked.png"
-                                alt="iOS App"
+                                alt={t('downloadPage.iosApp.alt')}
                                 className="rounded-xl object-cover w-full h-48"
                             />
                         </div>
                         <h3 className="text-xl font-bold text-gray-800 mb-3">
-                            US FAST ELD Driver iOS App
+                            {t('downloadPage.iosApp.title')}
                         </h3>
                         <div className="flex items-center gap-2 mb-4 text-gray-600">
                             <div className="flex -space-x-2">
@@ -95,7 +98,7 @@ function DownloadAndPricePage() {
                             </div>
                             <div className="flex items-center">
                                 <span className="font-semibold text-gray-700">987</span>
-                                <span className="ml-1 text-gray-500">downloads</span>
+                                <span className="ml-1 text-gray-500">{t('downloadPage.downloads')}</span>
                             </div>
                         </div>
                         <button 
@@ -105,7 +108,7 @@ function DownloadAndPricePage() {
                             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
-                            Download Now
+                            {t('downloadPage.downloadNow')}
                         </button>
                     </motion.div>
 
@@ -120,12 +123,12 @@ function DownloadAndPricePage() {
                         <div className="aspect-w-16 aspect-h-9 mb-6">
                             <img
                                 src="https://www.usfasteld.com/wp-content/uploads/2023/08/users-stacked.png"
-                                alt="Truck Sticker"
+                                alt={t('downloadPage.truckSticker.alt')}
                                 className="rounded-xl object-cover w-full h-48"
                             />
                         </div>
                         <h3 className="text-xl font-bold text-gray-800 mb-3">
-                            Truck Sticker
+                            {t('downloadPage.truckSticker.title')}
                         </h3>
                         <div className="flex items-center gap-2 mb-4 text-gray-600">
                             <div className="flex -space-x-2">
@@ -133,7 +136,7 @@ function DownloadAndPricePage() {
                             </div>
                             <div className="flex items-center">
                                 <span className="font-semibold text-gray-700">756</span>
-                                <span className="ml-1 text-gray-500">downloads</span>
+                                <span className="ml-1 text-gray-500">{t('downloadPage.downloads')}</span>
                             </div>
                         </div>
                         <button 
@@ -143,7 +146,7 @@ function DownloadAndPricePage() {
                             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
-                            Download Now
+                            {t('downloadPage.downloadNow')}
                         </button>
                     </motion.div>
 
@@ -158,12 +161,12 @@ function DownloadAndPricePage() {
                         <div className="aspect-w-16 aspect-h-9 mb-6">
                             <img
                                 src="https://www.usfasteld.com/wp-content/uploads/2023/08/users-stacked.png"
-                                alt="Certificate"
+                                alt={t('downloadPage.certificate.alt')}
                                 className="rounded-xl object-cover w-full h-48"
                             />
                         </div>
                         <h3 className="text-xl font-bold text-gray-800 mb-3">
-                            Certificate of Compliance
+                            {t('downloadPage.certificate.title')}
                         </h3>
                         <div className="flex items-center gap-2 mb-4 text-gray-600">
                             <div className="flex -space-x-2">
@@ -171,7 +174,7 @@ function DownloadAndPricePage() {
                             </div>
                             <div className="flex items-center">
                                 <span className="font-semibold text-gray-700">543</span>
-                                <span className="ml-1 text-gray-500">downloads</span>
+                                <span className="ml-1 text-gray-500">{t('downloadPage.downloads')}</span>
                             </div>
                         </div>
                         <button 
@@ -181,7 +184,7 @@ function DownloadAndPricePage() {
                             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
-                            Download Now
+                            {t('downloadPage.downloadNow')}
                         </button>
                     </motion.div>
 
@@ -196,12 +199,12 @@ function DownloadAndPricePage() {
                         <div className="aspect-w-16 aspect-h-9 mb-6">
                             <img
                                 src="https://www.usfasteld.com/wp-content/uploads/2023/08/users-stacked.png"
-                                alt="DOT Instructions"
+                                alt={t('downloadPage.dotInstruction.alt')}
                                 className="rounded-xl object-cover w-full h-48"
                             />
                         </div>
                         <h3 className="text-xl font-bold text-gray-800 mb-3">
-                            DOT Instruction Sheet
+                            {t('downloadPage.dotInstruction.title')}
                         </h3>
                         <div className="flex items-center gap-2 mb-4 text-gray-600">
                             <div className="flex -space-x-2">
@@ -209,7 +212,7 @@ function DownloadAndPricePage() {
                             </div>
                             <div className="flex items-center">
                                 <span className="font-semibold text-gray-700">432</span>
-                                <span className="ml-1 text-gray-500">downloads</span>
+                                <span className="ml-1 text-gray-500">{t('downloadPage.downloads')}</span>
                             </div>
                         </div>
                         <button 
@@ -219,7 +222,7 @@ function DownloadAndPricePage() {
                             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
-                            Download Now
+                            {t('downloadPage.downloadNow')}
                         </button>
                     </motion.div>
 
@@ -234,12 +237,12 @@ function DownloadAndPricePage() {
                         <div className="aspect-w-16 aspect-h-9 mb-6">
                             <img
                                 src="https://www.usfasteld.com/wp-content/uploads/2023/08/users-stacked.png"
-                                alt="User Manual"
+                                alt={t('downloadPage.userManual.alt')}
                                 className="rounded-xl object-cover w-full h-48"
                             />
                         </div>
                         <h3 className="text-xl font-bold text-gray-800 mb-3">
-                            User's Manual
+                            {t('downloadPage.userManual.title')}
                         </h3>
                         <div className="flex items-center gap-2 mb-4 text-gray-600">
                             <div className="flex -space-x-2">
@@ -247,7 +250,7 @@ function DownloadAndPricePage() {
                             </div>
                             <div className="flex items-center">
                                 <span className="font-semibold text-gray-700">321</span>
-                                <span className="ml-1 text-gray-500">downloads</span>
+                                <span className="ml-1 text-gray-500">{t('downloadPage.downloads')}</span>
                             </div>
                         </div>
                         <button 
@@ -257,7 +260,7 @@ function DownloadAndPricePage() {
                             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
-                            Download Now
+                            {t('downloadPage.downloadNow')}
                         </button>
                     </motion.div>
                 </div>
@@ -271,13 +274,13 @@ function DownloadAndPricePage() {
                         className="text-center mb-16"
                     >
                         <h2 className="text-blue-600 text-4xl font-bold mb-2">
-                            PRICING
+                            {t('pricingSection.heading')}
                         </h2>
                         <h1 className="text-gray-800 text-6xl font-extrabold">
-                            Plan that fit your scale
+                            {t('pricingSection.title')}
                         </h1>
                         <p className="text-gray-600 mt-4 text-xl">
-                            Simple, transparent pricing that grows with you
+                            {t('pricingSection.subtitle')}
                         </p>
                     </motion.div>
 
@@ -289,26 +292,26 @@ function DownloadAndPricePage() {
                         className="max-w-md mx-auto bg-white rounded-2xl shadow-xl p-8"
                     >
                         <div className="text-center">
-                            <h3 className="text-xl font-semibold text-gray-800 mb-4">Standard plan</h3>
+                            <h3 className="text-xl font-semibold text-gray-800 mb-4">{t('pricingSection.standardPlan')}</h3>
                             <div className="text-5xl font-bold text-gray-900 mb-6">
-                                $80<span className="text-2xl font-normal text-gray-600">/month</span>
+                                $80<span className="text-2xl font-normal text-gray-600">{t('pricingSection.perMonth')}</span>
                             </div>
                         </div>
 
                         <div className="space-y-4">
                             {[
-                                "Real-time Fleet Dashboard",
-                                "Electronic Logbook",
-                                "Electronic DVR",
-                                "GPS Tracking",
-                                "Tracking History",
-                                "Latest Fuel Locations & Fuel Pricings",
-                                "Live & Upcoming Weather",
-                                "Live Vehicle Location Sharing",
-                                "Advanced IFTA Reporting",
-                                "Driver Alarm",
-                                "On-demand Billing",
-                                "User Friendly Interface"
+                                'pricingSection.features.dashboard',
+                                'pricingSection.features.logbook',
+                                'pricingSection.features.dvr',
+                                'pricingSection.features.gpsTracking',
+                                'pricingSection.features.trackingHistory',
+                                'pricingSection.features.fuelLocations',
+                                'pricingSection.features.weather',
+                                'pricingSection.features.locationSharing',
+                                'pricingSection.features.iftaReporting',
+                                'pricingSection.features.driverAlarm',
+                                'pricingSection.features.billing',
+                                'pricingSection.features.userInterface'
                             ].map((feature, index) => (
                                 <motion.div 
                                     key={index} 
@@ -328,13 +331,13 @@ function DownloadAndPricePage() {
                                     >
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                                     </motion.svg>
-                                    <span className="text-gray-600">{feature}</span>
+                                    <span className="text-gray-600">{t(feature)}</span>
                                 </motion.div>
                             ))}
                         </div>
 
                         <button className="w-full mt-8 bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl hover:bg-blue-700 transition duration-300">
-                            Get started
+                            {t('pricingSection.getStarted')}
                         </button>
                     </motion.div>
                 </div>
@@ -343,4 +346,4 @@ function DownloadAndPricePage() {
     )
 }
 
-export default DownloadAndPricePage
+export default DownloadAndPricePage 

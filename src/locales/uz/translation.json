@@ -1,0 +1,348 @@
+{
+  "header": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "features": "Xususiyatlar",
+    "pricing": "Narxlar",
+    "integrations": "Integratsiyalar",
+    "store": "Do'kon",
+    "contact": "Aloqa",
+    "downloads": "Yuklab olish",
+    "login": "Kirish",
+    "signup": "Ro'yxatdan o'tish"
+  },
+  "main": {
+    "title": "Innovatsion transport boshqaruvi",
+    "subtitle": "Ilg'or xususiyatlar va real vaqt monitoringi bilan transport boshqaruvi ehtiyojlaringiz uchun to'liq yechim.",
+    "features": {
+      "eld": "ELD Muvofiqlik",
+      "gps": "GPS Kuzatuv",
+      "dispatch": "Dispetcher paneli",
+      "camera": "AI Dash kamera"
+    },
+    "downloads": {
+      "appStore": {
+        "text1": "Yuklab olish",
+        "text2": "App Store"
+      },
+      "playStore": {
+        "text1": "YUKLAB OLISH",
+        "text2": "Play Store"
+      }
+    },
+    "imgAlt": "Transport boshqaruv tizimi",
+    "learnMore": "Batafsil ma'lumot"
+  },
+  "features": {
+    "heading": "BIZNING MAHSULOTLAR",
+    "title": "Barcha transport vositalarini bir joyda boshqarish uchun kerakli barcha vositalar",
+    "subtitle": "ELD, Real vaqt GPS kuzatuvi, Dispetcher va Dash kameralar bilan oson muvofiqlashtirish",
+    "eld": {
+      "title": "ELD Muvofiqlik Yechimi",
+      "description": "Bizning FMCSA-sertifikatlangan ELD muvofiqlik yechimlari to'liq transport boshqaruvi uchun keng qamrovli xususiyatlarni taqdim etadi"
+    },
+    "gps": {
+      "title": "Aktivlar kuzatuvi",
+      "description": "Ilg'or GPS kuzatuvi orqali aktivlaringizni himoya qilish uchun eng samarali yechim. Haydovchi va yuk mashinasi xavfsizligiga ustuvorlik beruvchilar uchun ideal"
+    },
+    "dispatch": {
+      "title": "Dispetcher paneli",
+      "description": "Bizning keng qamrovli dispetcher yechimimiz bilan kundalik operatsiyalarni optimallashtirishga, vaqtni tejashga va yuqori daromadli yuklarga e'tibor qaratishga yordam beradi"
+    },
+    "camera": {
+      "title": "Dash kamera tizimi",
+      "description": "Bizning ilg'or dash kamera tizimimiz bilan biznesingizni himoya qiling. Javobgarlik va sug'urta xarajatlarini kamaytirish va haydovchi xavfsizligini yaxshilash"
+    },
+    "learnMore": "Batafsil ma'lumot",
+    "comingSoon": "Tez kunda",
+    "earlyAccess": "Erta kirish"
+  },
+  "compliance": {
+    "badge": "ELD Muvofiqlik",
+    "title": "Sizga kerak bo'lgan hamma narsa, hammasi bir joyda",
+    "subtitle": "Biz ELD ni haydovchilarni hisobga olgan holda qurib va sinadik, shuning uchun bizning keng qamrovli xususiyatlarimiz soddalashtirilgan tajribani taklif etadi.",
+    "comingSoon": "Tez kunda ✨",
+    "features": {
+      "compliance": {
+        "title": "Muvofiqlik",
+        "description": "Tekshiruvlarda o'tish uchun to'liq FMCSA talablariga javob beradi"
+      },
+      "records": {
+        "title": "Yozuvlarni saqlash va audit qilish",
+        "description": "Yozuvlaringizni kuzatib boring va saqlab qo'ying, hamda elektron jurnal moslashuvchanligidan foydalaning"
+      },
+      "messaging": {
+        "title": "Haydovchi xabarlashuvi",
+        "description": "Ilova orqali to'g'ridan-to'g'ri xabarlar, rasmlar yoki fayllarni yuboring"
+      },
+      "nightMode": {
+        "title": "Tungi rejim",
+        "description": "Ko'zlaringizga bitiradigan qorong'ulashtirilgan dizayn. Qurilmangiz uchun quvvatni tejaydi"
+      },
+      "easyAccess": {
+        "title": "Oson kirish",
+        "description": "Ko'p ishlatiladigan sahifalarga oson kirish imkoniyati va tasdiqlash, barcha tasdiqlangan yozuvlaringizni toplik tasdiqlash imkoniyati"
+      },
+      "scanner": {
+        "title": "Hujjat skaneri",
+        "description": "Hujjatlarni professional darajada skanerlash imkoniyati"
+      }
+    }
+  },
+  "dashboard": {
+    "badge": "GPS Kuzatuv",
+    "title": "Aqlli boshqaruv paneli",
+    "subtitle": "Qattiqroq emas, aqilliroq ishlang. Barcha transport vositalari va haydovchilar to'g'risidagi ma'lumotlarga kirish mumkin bo'lgan boshqaruv panelini taqdim etamiz. Yoqilg'i, tarozilar, o'lchash stansiyalari yoki kutilayotgan ob-havo uchun oldindan rejalashtiring.",
+    "monitor": {
+      "title": "Har bir transport vositasini kuzating",
+      "description": "Barcha muhim transport vositalari ma'lumotlari bir joyda: transport vositasi va haydovchining ish holati, hozirgi joylashuvi, hozirgi yoqilg'i darajasi va tezligi. Bundan tashqari, haydovchilarning qolgan HOS vaqtini ko'ring va hozirda HOS buzilishida bo'lgan haydovchilar ustidan nazorat qiling."
+    },
+    "map": {
+      "title": "Sozlanadigan xarita",
+      "description": "Sozlanadigan boshqaruv paneli xaritasi bilan siz eng ko'p yoqtiradigan uslubingizni tanlashingiz mumkin. Trafikni ko'rish, transport vositalarini guruhlash va eng yaqin og'irlik o'lchash stansiyalari, CAT tarozilari va turli xil yuk mashinalari to'xtash joylarini topish uchun filtrlardan foydalaning.",
+      "features": {
+        "styles": {
+          "title": "Maxsus xarita uslublari",
+          "description": "Afzalliklaringizga mos keladigan bir nechta xarita uslublardan tanlang"
+        },
+        "filtering": {
+          "title": "Kengaytirilgan filtrlash",
+          "description": "Trafik ma'lumotlarini filtrlash va transport vositalarini samarali guruhlash"
+        },
+        "facilities": {
+          "title": "Yaqin atrofdagi obyektlar",
+          "description": "Eng yaqin og'irlik o'lchash stansiyalari, CAT tarozilari va yuk mashinalari to'xtash joylarini toping"
+        }
+      },
+      "button": "Xususiyatlarni ko'rib chiqish"
+    },
+    "weather": {
+      "title": "Ob-havo xaritasi",
+      "description": "Ob-havo filtrlaridan foydalanib, oldindan rejalashtiring. Kutilayotgan yomg'ir, qor va bo'ron sharoitlari haqida xabardor bo'ling. Yo'nalishlaringiz bo'ylab harorat, namlik va ob-havo sharoitlarini kuzatib boring.",
+      "features": {
+        "updates": {
+          "title": "Real vaqt rejimida ob-havo yangilanishlari",
+          "description": "Hozirgi ob-havo sharoitlari va bashoratlarga kirish imkoniyati"
+        },
+        "alerts": {
+          "title": "Bo'ron ogohlantirishlari",
+          "description": "Og'ir ob-havo sharoitlari haqida xabardor qilinadi"
+        }
+      }
+    },
+    "location": {
+      "title": "Jonli joylashuv ulashish",
+      "description": "Transport vositangizning jonli joylashuvini ulashish orqali brokerlar va yuklab jo'natuvchilarni qoniqtiring. Haydovchining joylashuvi va kelish vaqti haqidagi stress va tashvishlarni yo'q qiling.",
+      "features": {
+        "sharing": {
+          "title": "Oson ulashish",
+          "description": "Amal qilish muddati bilan joylashuv havolalarini ulashing"
+        },
+        "security": {
+          "title": "Xavfsiz kirish",
+          "description": "Haydovchi ma'lumotlarini kim ko'rishini nazorat qiling"
+        }
+      }
+    }
+  },
+  "integrations": {
+    "title": "Integratsiyalar",
+    "subtitle": "Real vaqt ma'lumotlaridan foydalanish, samaradorlikni oshirish va operatsion xarajatlarni kamaytirish uchun muhim uchinchi tomon ilovalarini ulang",
+    "comingSoon": "Tez kunda",
+    "cards": {
+      "macroPoint": {
+        "title": "Descartes MacroPoint",
+        "description": "Descartes MacroPoint transport sayohatining har bir bosqichi davomida bir tomonlama ko'rinishni ta'minlash uchun mo'ljallangan"
+      },
+      "fourKites": {
+        "title": "FourKites",
+        "description": "Real vaqt rejimida transport vositalarini ko'rish sizga transport vositalaringiz va yuklaringizning aniq joylashuvini ko'rish imkonini beradi"
+      },
+      "project44": {
+        "title": "Project44",
+        "description": "Transport vositalarini har doim ko'rinadigan qilib, ta'minot zanjirini aniqlik va samaradorlik bilan boshqarishga yordam beradi"
+      },
+      "truckerTools": {
+        "title": "TruckerTools",
+        "description": "Yukni kuzatish va raqamli yuk moslashtirish yechimlari xarajatlaringizni qisqartirishga yordam beradi"
+      },
+      "goHighway": {
+        "title": "Go Highway",
+        "description": "Brokerlarga tashuvchilarni aniqlashga yordam beradi"
+      },
+      "amousTMS": {
+        "title": "Amous TMS",
+        "description": "Foydalanuvchilarga bir nechta mikro-xizmatlardan foydalanish imkonini beruvchi noyob arxitektura yondashuviga ega TMS"
+      },
+      "truckerCloud": {
+        "title": "Trucker Cloud",
+        "description": "Texnologiya kompaniyalariga sanoatning yetakchi ELD lari bilan tezda bog'lanish imkonini beradi, shunda siz ma'lumotlarni to'plashingiz va tezroq ma'lumot olishingiz mumkin"
+      }
+    }
+  },
+  "slides": {
+    "title": "Bizning integratsiya hamkorlarimiz",
+    "subtitle": "Yetakchi logistika platformalari bilan oson bog'lanish",
+    "comingSoon": "Tez kunda",
+    "slideNavigation": "{{number}}-slaydga o'tish",
+    "cards": {
+      "macroPoint": {
+        "title": "Descartes MacroPoint",
+        "name": "Descartes MacroPoint",
+        "description": "Descartes MacroPoint transport sayohatining har bir bosqichi davomida bir tomonlama ko'rinishni ta'minlash uchun mo'ljallangan"
+      },
+      "fourKites": {
+        "title": "FourKites",
+        "name": "FourKites",
+        "description": "Real vaqt rejimida transport vositalarini ko'rish sizga transport vositalaringiz va yuklaringizning aniq joylashuvini ko'rish imkonini beradi"
+      },
+      "project44": {
+        "title": "Project44",
+        "name": "Project44",
+        "description": "Transport vositalarini har doim ko'rinadigan qilib, ta'minot zanjirini aniqlik va samaradorlik bilan boshqarishga yordam beradi"
+      },
+      "truckerTools": {
+        "title": "TruckerTools",
+        "name": "TruckerTools",
+        "description": "Yukni kuzatish va raqamli yuk moslashtirish yechimlari xarajatlaringizni qisqartirishga yordam beradi"
+      },
+      "goHighway": {
+        "title": "Go Highway",
+        "name": "Go Highway",
+        "description": "Brokerlarga tashuvchilarni aniqlashga yordam beradi"
+      },
+      "amousTMS": {
+        "title": "Amous TMS",
+        "name": "Amous TMS",
+        "description": "Foydalanuvchilarga bir nechta mikro-xizmatlardan foydalanish imkonini beruvchi noyob arxitektura yondashuviga ega TMS"
+      },
+      "truckerCloud": {
+        "title": "Trucker Cloud",
+        "name": "Trucker Cloud",
+        "description": "Texnologiya kompaniyalariga sanoatning yetakchi ELD lari bilan tezda bog'lanish imkonini beradi, shunda siz ma'lumotlarni to'plashingiz va tezroq ma'lumot olishingiz mumkin"
+      }
+    }
+  },
+  "downloadPage": {
+    "alertMessage": "Yuklab olish havolasi hozirda mavjud emas",
+    "joinOthers": "BOSHQALARGA QO'SHILING",
+    "title": "Ilovalar & Qo'llanmalarni yuklab olish",
+    "downloads": "yuklash",
+    "downloadNow": "Hozir yuklab olish",
+    "androidApp": {
+      "alt": "Android ilova ko'rinishi",
+      "title": "US FAST ELD haydovchi Android ilovasi"
+    },
+    "iosApp": {
+      "alt": "iOS ilova",
+      "title": "US FAST ELD haydovchi iOS ilovasi"
+    },
+    "truckSticker": {
+      "alt": "Yuk mashinasi stikeri",
+      "title": "Yuk mashinasi stikeri"
+    },
+    "certificate": {
+      "alt": "Sertifikat",
+      "title": "Muvofiqlik sertifikati"
+    },
+    "dotInstruction": {
+      "alt": "DOT ko'rsatmalari",
+      "title": "DOT ko'rsatmalar varaqasi"
+    },
+    "userManual": {
+      "alt": "Foydalanuvchi qo'llanmasi",
+      "title": "Foydalanuvchi qo'llanmasi"
+    }
+  },
+  "pricingSection": {
+    "heading": "NARXLAR",
+    "title": "O'lchamingizga mos keluvchi tarif",
+    "subtitle": "Siz bilan birga o'sadigan oddiy, shaffof narxlar",
+    "standardPlan": "Standart tarif",
+    "perMonth": "/oyiga",
+    "getStarted": "Boshlash",
+    "features": {
+      "dashboard": "Real vaqt Transport boshqaruv paneli",
+      "logbook": "Elektron jurnal",
+      "dvr": "Elektron DVR",
+      "gpsTracking": "GPS kuzatuv",
+      "trackingHistory": "Kuzatuv tarixi",
+      "fuelLocations": "Eng so'nggi yoqilg'i joylashuvi & Yoqilg'i narxlari",
+      "weather": "Jonli & Kutilayotgan ob-havo",
+      "locationSharing": "Jonli transport vositasi joylashuvini ulashish",
+      "iftaReporting": "Kengaytirilgan IFTA hisoboti",
+      "driverAlarm": "Haydovchi signali",
+      "billing": "So'rov bo'yicha hisob-kitob",
+      "userInterface": "Foydalanuvchi uchun qulay interfeys"
+    }
+  },
+  "contactSection": {
+    "header": "Biz bilan bog'laning",
+    "title": "Do'stona jamoamiz bilan suhbatlashing",
+    "subtitle": "Sizdan xabar olishni xohlaymiz. Iltimos, ushbu shaklni to'ldiring yoki bizga elektron pochta yuboring.",
+    "contactInfo": {
+      "email": {
+        "title": "Elektron pochta",
+        "description": "Bizning do'stona jamoamiz yordam berish uchun tayyor",
+        "value": "info@usfasteld.com"
+      },
+      "phone": {
+        "title": "Telefon",
+        "description": "Dush-Shanba, 8:00 dan 17:00 gacha (EST)",
+        "value": "+13322238689"
+      },
+      "office": {
+        "title": "Ofis",
+        "description": "Ofisimizga tashrif buyuring",
+        "address": "340 Webster Ave Brooklyn NY 11230"
+      }
+    },
+    "form": {
+      "name": "Ism",
+      "companyName": "Kompaniya nomi",
+      "email": "Elektron pochta",
+      "phoneNumber": "Telefon raqami",
+      "amountOfTrucks": "Yuk mashinalar soni",
+      "message": "Xabar",
+      "consent": "Ushbu katakchani belgilash orqali siz Blue Star ELD Inc. dan matn xabarlarini olishga rozilik bildirasiz. Xabar va ma'lumotlar narxlari qo'llanilishi mumkin. Istalgan vaqtda obunadan chiqish uchun STOP javobini yuboring. Yordam uchun 1267-551-4401 raqamiga HELP so'zini yuboring. Qo'shimcha ma'lumot uchun bizning maxfiylik siyosatimizni ko'rib chiqing. Xabarlar chastotasi o'zgarishi mumkin.",
+      "submit": "Yuborish"
+    }
+  },
+  "footerSection": {
+    "tagline": "Barcha o'lchamdagi transport parklariga qulaylik va mukammallik yetkazib berish",
+    "columns": {
+      "company": {
+        "title": "Kompaniya",
+        "links": {
+          "home": "Bosh sahifa",
+          "features": "Xususiyatlar",
+          "store": "Do'kon",
+          "partnership": "Hamkorlik",
+          "contact": "Aloqa"
+        }
+      },
+      "resource": {
+        "title": "Resurslar",
+        "links": {
+          "download": "Yuklab olish",
+          "manuals": "Qo'llanmalar"
+        }
+      },
+      "legal": {
+        "title": "Huquqiy",
+        "links": {
+          "terms": "Shartlar",
+          "privacy": "Maxfiylik siyosati",
+          "returns": "Qaytarish va Qaytarib berish",
+          "warranty": "Mahsulot kafolati"
+        }
+      },
+      "app": {
+        "title": "Ilovani yuklab oling",
+        "googlePlay": "Google Play'dan yuklab oling",
+        "appStore": "App Store'dan yuklab oling"
+      }
+    },
+    "copyright": "© Blue Star ELD™. Barcha huquqlar himoyalangan."
+  }
+} 

@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 function SmartDashboard() {
+  const { t, i18n } = useTranslation();
+  const [language, setLanguage] = useState(i18n.language);
+
+  const toggleLanguage = () => {
+    const newLang = i18n.language === 'en' ? 'uz' : 'en';
+    i18n.changeLanguage(newLang);
+    setLanguage(newLang);
+  };
+
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden">
       <div className="container mx-auto px-4 py-12">
+       
+
         {/* Header Section */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
@@ -13,13 +25,13 @@ function SmartDashboard() {
           className="text-center mb-16"
         >
           <span className="text-blue-700 px-4 py-2 font-medium">
-            GPS Tracking
+            {t('dashboard.badge')}
           </span>
           <h1 className="text-5xl font-bold mt-6 mb-8 text-gray-900">
-            Smart Dashboard
+            {t('dashboard.title')}
           </h1>
           <p className="text-gray-600 max-w-3xl mx-auto text-lg leading-relaxed">
-          Work smarter, not harder. We present our dashboard where you can access all vehicles and drivers information. Plan ahead of time for fuel, scale, weigh stations or upcoming weather.
+            {t('dashboard.subtitle')}
           </p>
         </motion.div>
 
@@ -33,10 +45,10 @@ function SmartDashboard() {
         >
           <div className="space-y-8">
             <h2 className="text-4xl font-bold text-gray-900 leading-tight">
-            Monitor every vehicle
+              {t('dashboard.monitor.title')}
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-            All important vehicle information is in one place: vehicle and driver duty status, current location, current fuel level and speed. In addition, view drivers remaining HOS time and be on top of driver who are currently in HOS Violation.
+              {t('dashboard.monitor.description')}
             </p>
           </div>
 
@@ -92,11 +104,11 @@ function SmartDashboard() {
           {/* Right side - Text Content */}
           <div className="w-full lg:w-1/2 space-y-4 md:space-y-5 lg:space-y-6 flex flex-col justify-center mt-6 lg:mt-0">
             <h2 className="text-2xl md:text-2xl lg:text-3xl font-bold text-gray-900 text-center lg:text-left mt-5 sm:mt-6 md:mt-8 lg:mt-0">
-              Customizable Map
+              {t('dashboard.map.title')}
             </h2>
             
             <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-4 md:mb-5 lg:mb-6 text-center lg:text-left px-4 lg:px-0">
-              With customizable dashboard map you can choose the style you like the most. Use filters to view traffic, group vehicles, and find nearest Weigh Station, CAT Scales and wide variety of truck stops.
+              {t('dashboard.map.description')}
             </p>
 
             <div className="space-y-3 md:space-y-3.5 lg:space-y-4 px-4 lg:px-0">
@@ -107,8 +119,12 @@ function SmartDashboard() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-base md:text-lg lg:text-lg text-gray-900">Custom Map Styles</h3>
-                  <p className="text-gray-600 text-sm md:text-base">Choose from multiple map styles to match your preferences</p>
+                  <h3 className="font-semibold text-base md:text-lg lg:text-lg text-gray-900">
+                    {t('dashboard.map.features.styles.title')}
+                  </h3>
+                  <p className="text-gray-600 text-sm md:text-base">
+                    {t('dashboard.map.features.styles.description')}
+                  </p>
                 </div>
               </div>
 
@@ -119,8 +135,12 @@ function SmartDashboard() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-base md:text-lg lg:text-lg text-gray-900">Advanced Filtering</h3>
-                  <p className="text-gray-600 text-sm md:text-base">Filter traffic data and group vehicles efficiently</p>
+                  <h3 className="font-semibold text-base md:text-lg lg:text-lg text-gray-900">
+                    {t('dashboard.map.features.filtering.title')}
+                  </h3>
+                  <p className="text-gray-600 text-sm md:text-base">
+                    {t('dashboard.map.features.filtering.description')}
+                  </p>
                 </div>
               </div>
 
@@ -132,14 +152,18 @@ function SmartDashboard() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-base md:text-lg lg:text-lg text-gray-900">Nearby Facilities</h3>
-                  <p className="text-gray-600 text-sm md:text-base">Locate nearest weigh stations, CAT scales, and truck stops</p>
+                  <h3 className="font-semibold text-base md:text-lg lg:text-lg text-gray-900">
+                    {t('dashboard.map.features.facilities.title')}
+                  </h3>
+                  <p className="text-gray-600 text-sm md:text-base">
+                    {t('dashboard.map.features.facilities.description')}
+                  </p>
                 </div>
               </div>
             </div>
 
             <button className="mt-4 md:mt-5 lg:mt-6 bg-blue-600 text-white px-4 md:px-5 lg:px-6 py-2.5 md:py-2.5 lg:py-3 rounded-lg hover:bg-blue-700 transition-colors duration-300 w-fit mx-auto lg:mx-0">
-              Explore Features
+              {t('dashboard.map.button')}
             </button>
           </div>
         </motion.div>
@@ -154,10 +178,10 @@ function SmartDashboard() {
         >
           <div className="space-y-8">
             <h2 className="text-4xl font-bold text-gray-900 leading-tight">
-              Weather Map
+              {t('dashboard.weather.title')}
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Plan ahead of time using weather filters. Stay informed about upcoming rain, snow, and storm conditions. Monitor temperature, humidity, and weather patterns across your routes.
+              {t('dashboard.weather.description')}
             </p>
             <div className="space-y-4">
               <div className="flex items-center gap-3">
@@ -167,8 +191,12 @@ function SmartDashboard() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg text-gray-900">Real-time Weather Updates</h3>
-                  <p className="text-gray-600">Access current weather conditions and forecasts</p>
+                  <h3 className="font-semibold text-lg text-gray-900">
+                    {t('dashboard.weather.features.updates.title')}
+                  </h3>
+                  <p className="text-gray-600">
+                    {t('dashboard.weather.features.updates.description')}
+                  </p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -178,15 +206,19 @@ function SmartDashboard() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg text-gray-900">Storm Alerts</h3>
-                  <p className="text-gray-600">Get notified about severe weather conditions</p>
+                  <h3 className="font-semibold text-lg text-gray-900">
+                    {t('dashboard.weather.features.alerts.title')}
+                  </h3>
+                  <p className="text-gray-600">
+                    {t('dashboard.weather.features.alerts.description')}
+                  </p>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Weather Map Image Container */}
-          <div className="rounded-xl overflow-hidden  hover:shadow-2xl transition-all duration-300">
+          <div className="rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300">
             <img 
               src="https://www.usfasteld.com/wp-content/uploads/2023/08/features-03.png" 
               alt="Weather Map Interface" 
@@ -205,18 +237,21 @@ function SmartDashboard() {
         >
           {/* Left side - Map Preview */}
           <div className="relative">
-            <img src="https://www.usfasteld.com/wp-content/uploads/2023/08/features-04.png" alt="" />
+            <img 
+              src="https://www.usfasteld.com/wp-content/uploads/2023/08/features-04.png" 
+              alt="Live Location Sharing" 
+              className="w-full h-full object-cover"
+            />
           </div>
 
           {/* Right side - Content */}
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-gray-900 leading-tight">
-              Live Location Share
+              {t('dashboard.location.title')}
             </h2>
             
             <p className="text-gray-600 text-lg leading-relaxed">
-              Satisfy your Brokers and Shippers by sharing your vehicle's live location. 
-              Remove the stress and concerns about the driver's location and arrival times.
+              {t('dashboard.location.description')}
             </p>
 
             <div className="space-y-4">
@@ -228,8 +263,12 @@ function SmartDashboard() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg text-gray-900">Easy Sharing</h3>
-                  <p className="text-gray-600">Share location links with expiration dates</p>
+                  <h3 className="font-semibold text-lg text-gray-900">
+                    {t('dashboard.location.features.sharing.title')}
+                  </h3>
+                  <p className="text-gray-600">
+                    {t('dashboard.location.features.sharing.description')}
+                  </p>
                 </div>
               </div>
 
@@ -240,8 +279,12 @@ function SmartDashboard() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg text-gray-900">Secure Access</h3>
-                  <p className="text-gray-600">Control who can view driver information</p>
+                  <h3 className="font-semibold text-lg text-gray-900">
+                    {t('dashboard.location.features.security.title')}
+                  </h3>
+                  <p className="text-gray-600">
+                    {t('dashboard.location.features.security.description')}
+                  </p>
                 </div>
               </div>
             </div>

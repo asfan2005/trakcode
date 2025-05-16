@@ -1,0 +1,348 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "pricing": "Pricing",
+    "integrations": "Integrations",
+    "store": "Store",
+    "contact": "Contact",
+    "downloads": "Download",
+    "login": "Log in",
+    "signup": "Sign up"
+  },
+  "main": {
+    "title": "Innovative Fleet Management",
+    "subtitle": "Complete solution for your fleet management needs with advanced features and real-time monitoring.",
+    "features": {
+      "eld": "ELD Compliance",
+      "gps": "GPS Tracking",
+      "dispatch": "Dispatch Board",
+      "camera": "AI Dash Camera"
+    },
+    "downloads": {
+      "appStore": {
+        "text1": "Download on the",
+        "text2": "App Store"
+      },
+      "playStore": {
+        "text1": "GET IT ON",
+        "text2": "Play Store"
+      }
+    },
+    "imgAlt": "Fleet Management System",
+    "learnMore": "Learn more"
+  },
+  "features": {
+    "heading": "OUR PRODUCTS",
+    "title": "All the tools you need to manage your fleet in one place",
+    "subtitle": "Easy coordination with ELD, Real-time GPS tracking, Dispatch, and Dash cameras",
+    "eld": {
+      "title": "ELD Compliance Solution",
+      "description": "Our FMCSA-certified ELD compliance solution offers comprehensive features for complete fleet management"
+    },
+    "gps": {
+      "title": "Asset Tracker",
+      "description": "The most effective solution to secure your assets through advanced GPS tracking. Perfect for those who prioritize driver and truck safety"
+    },
+    "dispatch": {
+      "title": "Dispatcher Panel",
+      "description": "Optimize daily operations, save time, and focus on high-revenue loads with our comprehensive dispatch solution"
+    },
+    "camera": {
+      "title": "Dash Camera System",
+      "description": "Protect your business with our advanced dash camera system. Reduce liability and insurance costs while improving driver safety"
+    },
+    "learnMore": "Learn more",
+    "comingSoon": "Coming soon",
+    "earlyAccess": "Early access"
+  },
+  "compliance": {
+    "badge": "ELD Compliance",
+    "title": "Everything you need, all in one place",
+    "subtitle": "We built and tested the ELD with truckers in mind, which is why our extensive features offer a simplified experience.",
+    "comingSoon": "Coming Soon ✨",
+    "features": {
+      "compliance": {
+        "title": "Compliance",
+        "description": "Fully FMCSA compliant to pass your roadside inspections"
+      },
+      "records": {
+        "title": "Maintain and audit records",
+        "description": "Monitor and maintain your records and exercise e-log flexibility"
+      },
+      "messaging": {
+        "title": "Driver Messaging",
+        "description": "Send messages, images or files directly through the app"
+      },
+      "nightMode": {
+        "title": "Night Mode",
+        "description": "Darkened design to ease strain on your eyes. Power saving for your device"
+      },
+      "easyAccess": {
+        "title": "Easy Access",
+        "description": "Easily access most used pages and using certify, bulk certify all your past uncertified records"
+      },
+      "scanner": {
+        "title": "Document Scanner",
+        "description": "Easily scan documents like a professional"
+      }
+    }
+  },
+  "dashboard": {
+    "badge": "GPS Tracking",
+    "title": "Smart Dashboard",
+    "subtitle": "Work smarter, not harder. We present our dashboard where you can access all vehicles and drivers information. Plan ahead of time for fuel, scale, weigh stations or upcoming weather.",
+    "monitor": {
+      "title": "Monitor every vehicle",
+      "description": "All important vehicle information is in one place: vehicle and driver duty status, current location, current fuel level and speed. In addition, view drivers remaining HOS time and be on top of driver who are currently in HOS Violation."
+    },
+    "map": {
+      "title": "Customizable Map",
+      "description": "With customizable dashboard map you can choose the style you like the most. Use filters to view traffic, group vehicles, and find nearest Weigh Station, CAT Scales and wide variety of truck stops.",
+      "features": {
+        "styles": {
+          "title": "Custom Map Styles",
+          "description": "Choose from multiple map styles to match your preferences"
+        },
+        "filtering": {
+          "title": "Advanced Filtering",
+          "description": "Filter traffic data and group vehicles efficiently"
+        },
+        "facilities": {
+          "title": "Nearby Facilities",
+          "description": "Locate nearest weigh stations, CAT scales, and truck stops"
+        }
+      },
+      "button": "Explore Features"
+    },
+    "weather": {
+      "title": "Weather Map",
+      "description": "Plan ahead of time using weather filters. Stay informed about upcoming rain, snow, and storm conditions. Monitor temperature, humidity, and weather patterns across your routes.",
+      "features": {
+        "updates": {
+          "title": "Real-time Weather Updates",
+          "description": "Access current weather conditions and forecasts"
+        },
+        "alerts": {
+          "title": "Storm Alerts",
+          "description": "Get notified about severe weather conditions"
+        }
+      }
+    },
+    "location": {
+      "title": "Live Location Share",
+      "description": "Satisfy your Brokers and Shippers by sharing your vehicle's live location. Remove the stress and concerns about the driver's location and arrival times.",
+      "features": {
+        "sharing": {
+          "title": "Easy Sharing",
+          "description": "Share location links with expiration dates"
+        },
+        "security": {
+          "title": "Secure Access",
+          "description": "Control who can view driver information"
+        }
+      }
+    }
+  },
+  "integrations": {
+    "title": "Integrations",
+    "subtitle": "Connect your essential third-party apps to benefit from real-time data, improve efficiencies, and reduce operational costs",
+    "comingSoon": "Coming Soon",
+    "cards": {
+      "macroPoint": {
+        "title": "Descartes MacroPoint",
+        "description": "Descartes MacroPoint is purpose-built to provide end-to-end visibility through every stage of the transportation journey, all from a single provide"
+      },
+      "fourKites": {
+        "title": "FourKites",
+        "description": "Real-time transportation visibility allows you to have the exact location of your vehicles and shipments in real time"
+      },
+      "project44": {
+        "title": "Project44",
+        "description": "Helps manage the supply chain with precision and efficiency by making vehicles visible at all times"
+      },
+      "truckerTools": {
+        "title": "TruckerTools",
+        "description": "Load tracking and digital freight matching solution that helps cut your costs"
+      },
+      "goHighway": {
+        "title": "Go Highway",
+        "description": "Helps brokers identifying carriers"
+      },
+      "amousTMS": {
+        "title": "Amous TMS",
+        "description": "TMS with a unique architectural approach that enables users to benefit from several micro-services"
+      },
+      "truckerCloud": {
+        "title": "Trucker Cloud",
+        "description": "Allows tech companies to quickly connect with the industry's leading ELD's, so you can gather data and gain insight, faster."
+      }
+    }
+  },
+  "slides": {
+    "title": "Our Integration Partners",
+    "subtitle": "Seamlessly connect with leading logistics platforms",
+    "comingSoon": "Coming Soon",
+    "slideNavigation": "Go to slide {{number}}",
+    "cards": {
+      "macroPoint": {
+        "title": "Descartes MacroPoint",
+        "name": "Descartes MacroPoint",
+        "description": "Descartes MacroPoint is purpose-built to provide end-to-end visibility through every stage of the transportation journey, all from a single provider"
+      },
+      "fourKites": {
+        "title": "FourKites",
+        "name": "FourKites",
+        "description": "Real-time transportation visibility allows you to have the exact location of your vehicles and shipments in real time"
+      },
+      "project44": {
+        "title": "Project44",
+        "name": "Project44",
+        "description": "Helps manage the supply chain with precision and efficiency by making vehicles visible at all times"
+      },
+      "truckerTools": {
+        "title": "TruckerTools",
+        "name": "TruckerTools",
+        "description": "Load tracking and digital freight matching solution that helps cut your costs"
+      },
+      "goHighway": {
+        "title": "Go Highway",
+        "name": "Go Highway",
+        "description": "Helps brokers identifying carriers"
+      },
+      "amousTMS": {
+        "title": "Amous TMS",
+        "name": "Amous TMS",
+        "description": "TMS with a unique architectural approach that enables users to benefit from several micro-services"
+      },
+      "truckerCloud": {
+        "title": "Trucker Cloud",
+        "name": "Trucker Cloud",
+        "description": "Allows tech companies to quickly connect with the industry's leading ELD's, so you can gather data and gain insight, faster."
+      }
+    }
+  },
+  "downloadPage": {
+    "alertMessage": "Download link is not available at the moment",
+    "joinOthers": "JOIN THE OTHERS",
+    "title": "Download Apps & Manuals",
+    "downloads": "downloads",
+    "downloadNow": "Download Now",
+    "androidApp": {
+      "alt": "Android App Preview",
+      "title": "US FAST ELD Driver Android App"
+    },
+    "iosApp": {
+      "alt": "iOS App",
+      "title": "US FAST ELD Driver iOS App"
+    },
+    "truckSticker": {
+      "alt": "Truck Sticker",
+      "title": "Truck Sticker"
+    },
+    "certificate": {
+      "alt": "Certificate",
+      "title": "Certificate of Compliance"
+    },
+    "dotInstruction": {
+      "alt": "DOT Instructions",
+      "title": "DOT Instruction Sheet"
+    },
+    "userManual": {
+      "alt": "User Manual",
+      "title": "User's Manual"
+    }
+  },
+  "pricingSection": {
+    "heading": "PRICING",
+    "title": "Plan that fit your scale",
+    "subtitle": "Simple, transparent pricing that grows with you",
+    "standardPlan": "Standard plan",
+    "perMonth": "/month",
+    "getStarted": "Get started",
+    "features": {
+      "dashboard": "Real-time Fleet Dashboard",
+      "logbook": "Electronic Logbook",
+      "dvr": "Electronic DVR",
+      "gpsTracking": "GPS Tracking",
+      "trackingHistory": "Tracking History",
+      "fuelLocations": "Latest Fuel Locations & Fuel Pricings",
+      "weather": "Live & Upcoming Weather",
+      "locationSharing": "Live Vehicle Location Sharing",
+      "iftaReporting": "Advanced IFTA Reporting",
+      "driverAlarm": "Driver Alarm",
+      "billing": "On-demand Billing",
+      "userInterface": "User Friendly Interface"
+    }
+  },
+  "contactSection": {
+    "header": "Contact us",
+    "title": "Chat to our friendly team",
+    "subtitle": "We'd love to hear from you. Please fill out this form or shoot us an email.",
+    "contactInfo": {
+      "email": {
+        "title": "Email",
+        "description": "Our friendly team is here to help",
+        "value": "info@usfasteld.com"
+      },
+      "phone": {
+        "title": "Phone",
+        "description": "Mon-Sat from 8am to 5pm EST",
+        "value": "+13322238689"
+      },
+      "office": {
+        "title": "Office",
+        "description": "Visit our office",
+        "address": "340 Webster Ave Brooklyn NY 11230"
+      }
+    },
+    "form": {
+      "name": "Name",
+      "companyName": "Company Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "amountOfTrucks": "Amount of Trucks",
+      "message": "Message",
+      "consent": "By checking this box you agree to receive text from Blue Star ELD Inc. Message and data rates may apply. STOP to opt out at any time. Reply HELP to 1267-551-4401 for help. View our privacy policy for more information. Messages and data rates may apply. Message frequency will vary.",
+      "submit": "Submit"
+    }
+  },
+  "footerSection": {
+    "tagline": "Delivering convenience and excellence to all fleet sizes",
+    "columns": {
+      "company": {
+        "title": "Company",
+        "links": {
+          "home": "Home",
+          "features": "Features",
+          "store": "Store",
+          "partnership": "Partnership",
+          "contact": "Contact"
+        }
+      },
+      "resource": {
+        "title": "Resource",
+        "links": {
+          "download": "Download",
+          "manuals": "Manuals"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "links": {
+          "terms": "Terms",
+          "privacy": "Privacy",
+          "returns": "Returns & Refunds",
+          "warranty": "Product Warranty"
+        }
+      },
+      "app": {
+        "title": "Get the app",
+        "googlePlay": "Get it on Google Play",
+        "appStore": "Download on App Store"
+      }
+    },
+    "copyright": "© Blue Star ELD™. All rights reserved."
+  }
+} 
