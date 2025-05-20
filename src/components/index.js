@@ -8,3 +8,5 @@ export {default as Slides} from "../components/slides/Slides";
 export {default as DownloadAndPricePage} from "../components/downloadAndPrice/DownloadAndPricePage";
 export {default as Contact} from "../components/Contact/Contact";
 export {default as Footer} from "../components/footer/Footer";
+export {default as Store} from "../components/Store/Store";
+export {default as ProductDetail} from "../components/Store/ProductDetail";

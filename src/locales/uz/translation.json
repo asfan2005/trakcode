@@ -7,6 +7,7 @@
     "integrations": "Integratsiyalar",
     "store": "Do'kon",
     "contact": "Aloqa",
+    "contactUs": "Biz bilan bog'laning",
     "downloads": "Yuklab olish",
     "login": "Kirish",
     "signup": "Ro'yxatdan o'tish"
@@ -226,9 +227,12 @@
   "downloadPage": {
     "alertMessage": "Yuklab olish havolasi hozirda mavjud emas",
     "joinOthers": "BOSHQALARGA QO'SHILING",
-    "title": "Ilovalar & Qo'llanmalarni yuklab olish",
+    "title": "Yuklab olish",
+    "subtitle": "US Power ELD bilan transport parkingizni qurishni boshlang",
     "downloads": "yuklash",
     "downloadNow": "Hozir yuklab olish",
+    "applications": "Ilovalar",
+    "others": "Boshqalar",
     "androidApp": {
       "alt": "Android ilova ko'rinishi",
       "title": "US FAST ELD haydovchi Android ilovasi"
@@ -252,7 +256,8 @@
     "userManual": {
       "alt": "Foydalanuvchi qo'llanmasi",
       "title": "Foydalanuvchi qo'llanmasi"
-    }
+    },
+    "malfunctionManual": "Nosozlik qo'llanmasi"
   },
   "pricingSection": {
     "heading": "NARXLAR",
@@ -280,33 +285,29 @@
     "header": "Biz bilan bog'laning",
     "title": "Do'stona jamoamiz bilan suhbatlashing",
     "subtitle": "Sizdan xabar olishni xohlaymiz. Iltimos, ushbu shaklni to'ldiring yoki bizga elektron pochta yuboring.",
-    "contactInfo": {
-      "email": {
-        "title": "Elektron pochta",
-        "description": "Bizning do'stona jamoamiz yordam berish uchun tayyor",
-        "value": "info@usfasteld.com"
-      },
-      "phone": {
-        "title": "Telefon",
-        "description": "Dush-Shanba, 8:00 dan 17:00 gacha (EST)",
-        "value": "+13322238689"
-      },
-      "office": {
-        "title": "Ofis",
-        "description": "Ofisimizga tashrif buyuring",
-        "address": "340 Webster Ave Brooklyn NY 11230"
-      }
-    },
+    "contactUs": "ELD obunasi uchun biz bilan bog'laning",
+    "company": "US Power ELD",
+    "supportTeam": "Qo'llab-quvvatlash jamoasi",
+    "salesTeam": "Sotish jamoasi",
     "form": {
-      "name": "Ism",
-      "companyName": "Kompaniya nomi",
+      "fullName": "To'liq ism",
       "email": "Elektron pochta",
       "phoneNumber": "Telefon raqami",
-      "amountOfTrucks": "Yuk mashinalar soni",
-      "message": "Xabar",
-      "consent": "Ushbu katakchani belgilash orqali siz Blue Star ELD Inc. dan matn xabarlarini olishga rozilik bildirasiz. Xabar va ma'lumotlar narxlari qo'llanilishi mumkin. Istalgan vaqtda obunadan chiqish uchun STOP javobini yuboring. Yordam uchun 1267-551-4401 raqamiga HELP so'zini yuboring. Qo'shimcha ma'lumot uchun bizning maxfiylik siyosatimizni ko'rib chiqing. Xabarlar chastotasi o'zgarishi mumkin.",
+      "message": "Xabaringiz",
+      "required": "Talab qilinadi",
+      "captcha": "Men robot emasman",
       "submit": "Yuborish"
-    }
+    },
+    "supportContact": {
+      "email": "support@uspowereld.com",
+      "hours": "24 / 7"
+    },
+    "salesContact": {
+      "phone": "+1 (332) 232-9292",
+      "email": "info@uspowereld.com",
+      "hours": "Dushanba - Shanba, 8:00 - 17:00 EST"
+    },
+    "success": "Shakl muvaffaqiyatli yuborildi!"
   },
   "footerSection": {
     "tagline": "Barcha o'lchamdagi transport parklariga qulaylik va mukammallik yetkazib berish",
@@ -344,5 +345,59 @@
       }
     },
     "copyright": "© Blue Star ELD™. Barcha huquqlar himoyalangan."
+  },
+  "storePage": {
+    "title": "Do'kon",
+    "sections": {
+      "devices": "Qurilmalar",
+      "cables": "Kabellar"
+    },
+    "readMore": "Batafsil",
+    "backToStore": "Do'konga qaytish",
+    "addToCart": "Savatga qo'shish",
+    "shippingNote": "Barcha narxlar yetkazib berish xarajatlarini o'z ichiga olmaydi",
+    "productDetails": {
+      "specifications": "Texnik xususiyatlar",
+      "compatibility": "Moslik",
+      "compatibilityText": "Barcha US FAST ELD qurilmalari bilan mos keladi",
+      "warranty": "Kafolat",
+      "warrantyText": "1 yillik cheklangan kafolat",
+      "shipping": "Yetkazib berish",
+      "shippingText": "1-2 ish kuni ichida jo'natiladi",
+      "inBox": "Qutida nimalar bor",
+      "inBoxText": "1 x {{productTitle}}, O'rnatish bo'yicha qo'llanma",
+      "notFound": "Mahsulot topilmadi",
+      "inStock": "Mavjud"
+    },
+    "products": {
+      "eldHardware": {
+        "title": "ELD Hardware PT30",
+        "description": "ELD Hardware PT30 - bu tijorat haydovchilariga xizmat ko'rsatish soatlariga rioya qilishga yordam berish uchun mo'ljallangan eng zamonaviy elektron qayd etish qurilmasi. Ushbu ixcham va chidamli qurilma transport vositasining harakatlanish vaqti, dvigatel soatlari, transport vositasining harakati va bosib o'tilgan masofani aniq qayd etish uchun to'g'ridan-to'g'ri diagnostika portiga ulanadi."
+      },
+      "iorixDevice": {
+        "title": "IORIX ELD Qurilmasi",
+        "description": "IORIX ELD qurilmasi transport parkini boshqarish uchun ishonchli ishlashni taqdim etadigan ilg'or elektron jurnal yechimidir. Ushbu qurilma haydovchi soatlarini avtomatik ravishda kuzatib boradi, DVIR ni soddalashtiradi va transport parkingizni tartibga muvofiq va samarali saqlash uchun real vaqt rejimida GPS kuzatuvini taqdim etadi. Uning foydalanuvchi uchun qulay interfeysi haydovchilarga o'z jurnallarini boshqarish va transport parki dispetcherlari uchun operatsiyalarni nazorat qilishni osonlashtiradi."
+      },
+      "j1939Cable": {
+        "title": "9-Pin uchun J1939 Kabeli",
+        "description": "J1939 og'ir yuk mashinalari uchun qabul qilingan sanoat standarti va transport vositalari tarmog'i texnologiyasiga aylandi. Ushbu kabel har qanday og'ir yuk transportida mikroprotsessor tizimlarining (shuningdek, elektron boshqaruv bloki - ECU) ketma-ket ma'lumotlar aloqasini ta'minlaydi. Almashilgan ma'lumotlarga transport vositasi yo'l tezligi, transmissiyadan dvigatelga burovchi moment boshqaruvi xabari, moy harorati va boshqalar kiradi."
+      },
+      "j1708Cable": {
+        "title": "6-Pin uchun J1708 Kabeli",
+        "description": "6-Pin uchun J1708 kabeli J1708 protokolidan foydalanadigan eski model yuk mashinalari uchun mo'ljallangan. Ushbu ishonchli ulanish kabeli ELD qurilmangiz va transport vositangizning ECM o'rtasida izchil ma'lumotlar uzatilishini ta'minlaydi. Yuqori sifatli materiallardan yasalgan, ushbu kabel og'ir yuk tashish operatsiyalarining talabchan sharoitlariga qarshi tura oladi."
+      },
+      "pinCableVolvo": {
+        "title": "Volvo/Mack uchun 16-Pin kabeli",
+        "description": "Bu maxsus 16-Pin kabel Volvo va Mack yuk mashinalari uchun maxsus mo'ljallangan bo'lib, ushbu transport vositalarining noyob diagnostika tizimlari bilan mukammal mos kelishini ta'minlaydi. Kabel ELD qurilmangiz va yuk mashinasining diagnostika porti o'rtasida uzluksiz aloqani ta'minlaydi, aniq ma'lumotlarni to'plash va xizmat ko'rsatish soatlarini qayd etishga imkon beradi."
+      },
+      "pinCableRP1226": {
+        "title": "14-Pin RP1226 Kabeli",
+        "description": "14-Pin RP1226 kabeli RP1226 standart diagnostika portidan foydalanadigan og'ir yuk mashinalari uchun mo'ljallangan maxsus ulagichdir. Ushbu yuqori sifatli kabel ELD qurilmangiz va transport vositasining dvigatel boshqaruv moduli o'rtasida ishonchli ma'lumotlar uzatilishini ta'minlaydi."
+      },
+      "obd2Cable": {
+        "title": "16-Pin OBD2 kabeli (Yengil/O'rta vazn)",
+        "description": "16-Pin OBD2 kabeli standart OBD-II diagnostika portlari bilan jihozlangan yengil va o'rta vazndagi transport vositalari uchun maxsus ishlab chiqilgan. Ushbu universal ulagich ELD qurilmangiz va transport vositangizning bort kompyuter tizimi o'rtasida ishonchli ma'lumotlar aloqasini ta'minlaydi."
+      }
+    }
   }
 } 

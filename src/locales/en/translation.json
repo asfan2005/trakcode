@@ -7,6 +7,7 @@
     "integrations": "Integrations",
     "store": "Store",
     "contact": "Contact",
+    "contactUs": "Contact Us",
     "downloads": "Download",
     "login": "Log in",
     "signup": "Sign up"
@@ -226,9 +227,12 @@
   "downloadPage": {
     "alertMessage": "Download link is not available at the moment",
     "joinOthers": "JOIN THE OTHERS",
-    "title": "Download Apps & Manuals",
+    "title": "Download",
+    "subtitle": "Build your Fleet Power with US Power ELD",
     "downloads": "downloads",
     "downloadNow": "Download Now",
+    "applications": "Applications",
+    "others": "Others",
     "androidApp": {
       "alt": "Android App Preview",
       "title": "US FAST ELD Driver Android App"
@@ -252,7 +256,8 @@
     "userManual": {
       "alt": "User Manual",
       "title": "User's Manual"
-    }
+    },
+    "malfunctionManual": "Malfunction Manual"
   },
   "pricingSection": {
     "heading": "PRICING",
@@ -280,33 +285,29 @@
     "header": "Contact us",
     "title": "Chat to our friendly team",
     "subtitle": "We'd love to hear from you. Please fill out this form or shoot us an email.",
-    "contactInfo": {
-      "email": {
-        "title": "Email",
-        "description": "Our friendly team is here to help",
-        "value": "info@usfasteld.com"
-      },
-      "phone": {
-        "title": "Phone",
-        "description": "Mon-Sat from 8am to 5pm EST",
-        "value": "+13322238689"
-      },
-      "office": {
-        "title": "Office",
-        "description": "Visit our office",
-        "address": "340 Webster Ave Brooklyn NY 11230"
-      }
-    },
+    "contactUs": "Contact Us for ELD Subscription",
+    "company": "US Power ELD",
+    "supportTeam": "Support team",
+    "salesTeam": "Sales team",
     "form": {
-      "name": "Name",
-      "companyName": "Company Name",
+      "fullName": "Full Name",
       "email": "Email",
       "phoneNumber": "Phone Number",
-      "amountOfTrucks": "Amount of Trucks",
-      "message": "Message",
-      "consent": "By checking this box you agree to receive text from Blue Star ELD Inc. Message and data rates may apply. STOP to opt out at any time. Reply HELP to 1267-551-4401 for help. View our privacy policy for more information. Messages and data rates may apply. Message frequency will vary.",
+      "message": "Your Message",
+      "required": "Required",
+      "captcha": "I'm not a robot",
       "submit": "Submit"
-    }
+    },
+    "supportContact": {
+      "email": "support@uspowereld.com",
+      "hours": "24 / 7"
+    },
+    "salesContact": {
+      "phone": "+1 (332) 232-9292",
+      "email": "info@uspowereld.com",
+      "hours": "Monday - Saturday, 8AM - 5PM EST"
+    },
+    "success": "Form submitted successfully!"
   },
   "footerSection": {
     "tagline": "Delivering convenience and excellence to all fleet sizes",
@@ -344,5 +345,59 @@
       }
     },
     "copyright": "© Blue Star ELD™. All rights reserved."
+  },
+  "storePage": {
+    "title": "Store",
+    "sections": {
+      "devices": "Devices",
+      "cables": "Cables"
+    },
+    "readMore": "Read More",
+    "backToStore": "Back to Store",
+    "addToCart": "Add to cart",
+    "shippingNote": "All prices excluding shipment",
+    "productDetails": {
+      "specifications": "Specifications",
+      "compatibility": "Compatibility",
+      "compatibilityText": "Compatible with all US FAST ELD devices",
+      "warranty": "Warranty",
+      "warrantyText": "1 year limited warranty",
+      "shipping": "Shipping",
+      "shippingText": "Ships within 1-2 business days",
+      "inBox": "What's in the box",
+      "inBoxText": "1 x {{productTitle}}, Installation Guide",
+      "notFound": "Product Not Found",
+      "inStock": "In Stock"
+    },
+    "products": {
+      "eldHardware": {
+        "title": "ELD Hardware PT30",
+        "description": "The ELD Hardware PT30 is a state-of-the-art electronic logging device designed to help commercial drivers comply with hours of service regulations. This compact and durable hardware connects directly to your vehicle's diagnostic port to accurately record driving time, engine hours, vehicle movement, and miles driven."
+      },
+      "iorixDevice": {
+        "title": "IORIX ELD Device",
+        "description": "The IORIX ELD Device is an advanced electronic logging solution that offers reliable performance for fleet management. This device automatically tracks driver hours, simplifies DVIR, and provides real-time GPS tracking to keep your fleet compliant and efficient. Its user-friendly interface makes it easy for drivers to manage their logs and for fleet managers to monitor operations."
+      },
+      "j1939Cable": {
+        "title": "J1939 Cable for 9-Pin",
+        "description": "J1939 has become the accepted industry standard and the vehicle network technology of choice for heavy-duty machines. This cable enables serial data communication of microprocessor systems (also called Electronic Control Units-ECU) in any kind of heavy-duty vehicles. The exchanged data includes vehicle road speed, torque control message from the transmission to the engine, oil temperature, and many more."
+      },
+      "j1708Cable": {
+        "title": "J1708 Cable for 6-Pin",
+        "description": "The J1708 Cable for 6-Pin is designed for older model trucks that use the J1708 protocol. This reliable connection cable ensures consistent data transfer between your ELD device and the vehicle's ECM. Made with high-quality materials, this cable is built to withstand the demanding conditions of heavy-duty trucking operations."
+      },
+      "pinCableVolvo": {
+        "title": "16-Pin cable for Volvo/Mack",
+        "description": "This specialized 16-Pin cable is specifically designed for Volvo and Mack trucks, ensuring perfect compatibility with these vehicles' unique diagnostic systems. The cable facilitates seamless connection between your ELD device and the truck's diagnostic port, allowing for accurate data collection and Hours of Service logging."
+      },
+      "pinCableRP1226": {
+        "title": "14-Pin RP1226 Cable",
+        "description": "The 14-Pin RP1226 Cable is a specialized connector designed for heavy-duty vehicles that utilize the RP1226 standard diagnostic port. This high-quality cable ensures reliable data transmission between your ELD device and the vehicle's engine control module."
+      },
+      "obd2Cable": {
+        "title": "16-Pin OBD2 cable (Light/Medium Duty)",
+        "description": "The 16-Pin OBD2 cable is specifically designed for light and medium-duty vehicles equipped with standard OBD-II diagnostic ports. This universal connector provides reliable data communication between your ELD device and the vehicle's onboard computer system."
+      }
+    }
   }
 } 

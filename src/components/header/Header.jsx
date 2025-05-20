@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { FaTruck, FaBars, FaTimes } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
 import LanguageSwitcher from '../LanguageSwitcher'
@@ -9,6 +9,8 @@ function Header() {
   const [scrolled, setScrolled] = useState(false)
   const { t, i18n } = useTranslation()
   const isUzbek = i18n.language === 'uz'
+  const location = useLocation()
+  const navigate = useNavigate()
   
   useEffect(() => {
     const handleScroll = () => {
@@ -30,12 +32,42 @@ function Header() {
     };
   }, [isMenuOpen]);
 
+  const handlePricingClick = (e) => {
+    e.preventDefault();
+
+    // If we're on the home page, just scroll to the pricing section
+    if (location.pathname === '/') {
+      const pricingSection = document.getElementById('pricing');
+      if (pricingSection) {
+        pricingSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      // If we're on another page, navigate to home and then scroll
+      navigate('/', { state: { scrollToPricing: true } });
+    }
+    
+    // Close mobile menu if open
+    setIsMenuOpen(false);
+  };
+
+  // Effect to handle scrolling after navigation
+  useEffect(() => {
+    if (location.state?.scrollToPricing && location.pathname === '/') {
+      setTimeout(() => {
+        const pricingSection = document.getElementById('pricing');
+        if (pricingSection) {
+          pricingSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 500); // Small delay to ensure the component has mounted
+    }
+  }, [location]);
+
   const navItems = [
     { path: '/', label: t('header.home') },
-    { path: '/features', label: t('header.features') },
     { path: '/store', label: t('header.store') },
-    { path: '/contact', label: t('header.contact') },
     { path: '/downloads', label: t('header.downloads') },
+    { path: '#pricing', label: t('header.pricing'), onClick: handlePricingClick },
+    { path: '/contact', label: t('header.contactUs') },
   ]
 
   return (
@@ -64,6 +96,7 @@ function Header() {
                     <Link 
                       key={item.path} 
                       to={item.path} 
+                      onClick={item.onClick}
                       className="text-center text-sm xl:text-base text-white hover:text-yellow-400 transition-colors font-medium px-2"
                     >
                       {item.label}
@@ -110,8 +143,14 @@ function Header() {
                     <Link 
                       key={item.path}
                       to={item.path} 
+                      onClick={(e) => {
+                        if (item.onClick) {
+                          item.onClick(e);
+                        } else {
+                          setIsMenuOpen(false);
+                        }
+                      }}
                       className="block text-white hover:text-yellow-400 transition-colors font-medium text-lg py-3 border-b border-blue-800/40" 
-                      onClick={() => setIsMenuOpen(false)}
                     >
                       {item.label}
                     </Link>
