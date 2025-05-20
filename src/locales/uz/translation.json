@@ -12,6 +12,10 @@
     "login": "Kirish",
     "signup": "Ro'yxatdan o'tish"
   },
+  "common": {
+    "backToHome": "Bosh sahifaga qaytish",
+    "contactUs": "Biz bilan bog'laning"
+  },
   "main": {
     "title": "Innovatsion transport boshqaruvi",
     "subtitle": "Ilg'or xususiyatlar va real vaqt monitoringi bilan transport boshqaruvi ehtiyojlaringiz uchun to'liq yechim.",
@@ -235,11 +239,11 @@
     "others": "Boshqalar",
     "androidApp": {
       "alt": "Android ilova ko'rinishi",
-      "title": "US FAST ELD haydovchi Android ilovasi"
+      "title": "TheBestELD haydovchi Android ilovasi"
     },
     "iosApp": {
       "alt": "iOS ilova",
-      "title": "US FAST ELD haydovchi iOS ilovasi"
+      "title": "TheBestELD haydovchi iOS ilovasi"
     },
     "truckSticker": {
       "alt": "Yuk mashinasi stikeri",
@@ -296,7 +300,10 @@
       "message": "Xabaringiz",
       "required": "Talab qilinadi",
       "captcha": "Men robot emasman",
-      "submit": "Yuborish"
+      "submit": "Yuborish",
+      "submitting": "Yuborilmoqda...",
+      "consent": "TheBestELD dan xabarlar olishga rozilik bildiraman.",
+      "invalidEmail": "Elektron pochta formati noto'g'ri"
     },
     "supportContact": {
       "email": "support@uspowereld.com",
@@ -359,7 +366,7 @@
     "productDetails": {
       "specifications": "Texnik xususiyatlar",
       "compatibility": "Moslik",
-      "compatibilityText": "Barcha US FAST ELD qurilmalari bilan mos keladi",
+      "compatibilityText": "Barcha TheBestELD qurilmalari bilan mos keladi",
       "warranty": "Kafolat",
       "warrantyText": "1 yillik cheklangan kafolat",
       "shipping": "Yetkazib berish",
@@ -399,5 +406,195 @@
         "description": "16-Pin OBD2 kabeli standart OBD-II diagnostika portlari bilan jihozlangan yengil va o'rta vazndagi transport vositalari uchun maxsus ishlab chiqilgan. Ushbu universal ulagich ELD qurilmangiz va transport vositangizning bort kompyuter tizimi o'rtasida ishonchli ma'lumotlar aloqasini ta'minlaydi."
       }
     }
+  },
+  "manualsPage": {
+    "title": "Foydalanuvchi qo'llanmalari",
+    "subtitle": "ELD tizimingizdan maksimal darajada foydalanishga yordam beradigan keng qamrovli hujjatlarga kirish",
+    "download": "PDF yuklab olish",
+    "needHelp": {
+      "title": "Qo'shimcha yordam kerakmi?",
+      "description": "Agar qo'llanmalarimizda qidirayotgan narsangizni topa olmasangiz, yordam xizmatimiz 24/7 sizga yordam berishga tayyor. Qo'shimcha yo'l-yo'riqlar uchun biz bilan bog'laning yoki video qo'llanmalarimizni ko'ring.",
+      "contactSupport": "Yordam xizmati bilan bog'lanish",
+      "watchTutorials": "Video qo'llanmalarni ko'rish"
+    }
+  },
+  "termsPage": {
+    "title": "Foydalanish shartlari",
+    "introduction": "Ushbu xizmat shartlari (\"Shartnoma\") siz va Pensilvaniya cheklangan javobgarlik korporatsiyasi TheBestELD Inc, uning xodimlari, maslahatchilari, direktorlari, vorislar, sho'ba kompaniyalari, afillanganlar va tayinlanganlar (\"Kompaniya\", \"biz\" yoki \"biz\") o'rtasidagi shartnomani tashkil etadi va biz tomonimizdan taklif qilinadigan xizmatlardan foydalanish shartlarini boshqaradi, o'zingiz nomidan yoki siz vakolat berilgan kompaniya yoki boshqa yuridik shaxs nomidan. Agar siz yuridik shaxs nomidan harakat qilsangiz, ushbu Shartnoma Kompaniya va ushbu yuridik shaxs o'rtasidagi shartnomani tashkil etadi va siz ushbu yuridik shaxs va uning afillanganlarini ushbu Shartnomaga bog'lash vakolatiga ega ekanligingizni tasdiqlaysiz. Ushbu Shartnoma davomida \"siz\" yoki \"sizning\" atamalari shaxsan o'zingizni va/yoki siz nomidan harakat qilayotgan yuridik shaxsni anglatadi.",
+    "sections": {
+      "description": {
+        "title": "Xizmat tavsifi",
+        "content": "Xizmat deganda Kompaniyaning elektron jurnal qurilmasi va transport parkini boshqarish dasturiy ta'minoti tushuniladi va bizning veb-saytlarimiz, mobil veb-saytlarimiz va mobil ilovamiz va ularning har qanday yangilanishlari yoki yangilanishlarini o'z ichiga oladi (\"Xizmat\")."
+      },
+      "pricing": {
+        "title": "Narxlash",
+        "content": "Mening narxlarim suratga olish turi va o'ziga xos talablarga qarab farq qiladi. Batafsil narxlash ma'lumotlari uchun, iltimos, aloqa formasi orqali bog'laning va men sizga shaxsiy narx taklifini taqdim etaman."
+      },
+      "access": {
+        "title": "Suratga olishdan keyin men fotosuratlarga qanday kirish huquqiga ega bo'lishim mumkin?",
+        "content": "Suratga olishdan so'ng, men sizga tahrirlangan fotosuratingizni ko'rish va yuklab olish imkonini beradigan shaxsiy onlayn galereyani taqdim etaman. Siz do'stlar va oila bilan baham ko'rishingiz mumkin bo'lgan parol bilan himoyalangan havolani olasiz."
+      },
+      "contact": {
+        "title": "Aloqa ma'lumotlari",
+        "content": "Ushbu shartlar bo'yicha savollaringiz bo'lsa, iltimos, Aloqa sahifasi orqali yoki support@uspowereld.com elektron pochta orqali biz bilan bog'laning."
+      }
+    },
+    "lastUpdated": "Oxirgi yangilanish",
+    "updateDate": "1 yanvar, 2025"
+  },
+  "privacyPage": {
+    "title": "Maxfiylik siyosati",
+    "introduction": "TheBestELD Inc sizning maxfiyligingizni juda jiddiy qabul qiladi. Ushbu Maxfiylik siyosati Xizmatga (Foydalanish shartlarimizda belgilanganidek) tegishli. Ushbu Maxfiylik siyosatida ishlatilgan, lekin aniqlanmagan har qanday atamalar Foydalanish shartlarimizda ularga berilgan ma'nolarga ega.",
+    "sections": {
+      "collect": {
+        "title": "Biz to'playdigan ma'lumotlar",
+        "content": "Sizdan ma'lumot to'plashning asosiy sababi - sizga Xizmatimizni taqdim etish va Xizmatdan foydalanishni osonlashtirishdir. Biz sizning shaxsni identifikatsiya qilish uchun foydalanish mumkin bo'lgan ommaviy bo'lmagan shaxsiy ma'lumotlarni o'z ichiga olishi mumkin bo'lgan quyidagi ma'lumotlarni to'plashimiz mumkin (\"Shaxsiy ma'lumotlar\")."
+      },
+      "account": {
+        "title": "Hisob va profil ma'lumotlari",
+        "content": "Xizmatga kirganingizda, siz bizga Sizning ma'lumotlaringiz va Shaxsiy ma'lumotlaringizni taqdim etasiz, jumladan, lekin ular bilan cheklanmagan holda ismingiz, mobil telefon raqamingiz, elektron pochta manzilingiz, pochta manzilingiz va haydovchilik guvohnomasi ma'lumotlari. Biz to'playdigan Shaxsiy ma'lumotlarga siz yoki hisobingizga kirish huquqini bergan uchinchi shaxslar tomonidan hisobingizga yuklangan hujjatlar ham kirishi mumkin (jumladan, lekin ular bilan cheklanmagan holda motorli transport vositalari hujjatlari, sug'urta dalili(lar) va transport ishchisi identifikatsiya hujjatingiz)."
+      },
+      "usage": {
+        "title": "Xizmatdan foydalanishingiz bilan bog'liq ma'lumotlar",
+        "content": "Biz Xizmatdan foydalanishingiz bilan bog'liq ba'zi ma'lumotlarni avtomatik ravishda to'playmiz, yozib olamiz va saqlaymiz, masalan: Sizning ma'lumotlaringiz (Foydalanish shartlarimizda belgilanganidek), Transport vositasi haqida ma'lumot, Bunday transport vositasini boshqarish bilan bog'liq ma'lumotlar (jumladan, lekin ular bilan cheklanmagan holda haydovchi ishlash ma'lumotlari, haydash vaqti, ish vaqtida va ish vaqtidan tashqari holati va boshqalar), Xizmat orqali uchinchi tomonlarga yuboradigan ma'lumotlar, masalan, Xizmat orqali uchinchi tomonlarga yuborilgan har qanday xabarlar yoki Transport vazirligi tekshiruv hisobotlarini uzatish, Xizmatdan foydalanish haqida ma'lumot, jumladan foydalanish davomiyligi, siz tashrif buyurgan ekranlar yoki veb-sahifalar va Xizmat doirasidagi faoliyatingiz haqida boshqa ma'lumotlar."
+      },
+      "device": {
+        "title": "Mobil qurilmangiz tomonidan yuborilgan ma'lumotlar",
+        "content": "Siz Xizmatdan foydalanayotganingizda sizdan bilvosita ba'zi ma'lumotlarni to'playmiz, masalan, siz foydalanayotgan qurilma, Xizmatga kirish paytida foydalanayotgan apparat va dasturiy ta'minot va IP-manzilingiz haqida ma'lumot."
+      },
+      "location": {
+        "title": "Joylashuv ma'lumotlari",
+        "content": "Biz IP-manzilingizni geo-joylashuvga o'zgartirish yoki qurilmangizdagi joylashuv xizmatlari orqali mobil qurilmangizning GPS koordinatalariga kirish orqali joylashuvingiz haqidagi ma'lumotlarni to'plashimiz va saqlashimiz mumkin."
+      },
+      "sharing": {
+        "title": "Boshqalar bilan ma'lumot almashish usullarimiz",
+        "content": "Biz sizning ma'lumotlaringizni quyidagi yo'llar bilan almashishimiz mumkin:",
+        "subsections": {
+          "service": {
+            "title": "Xizmatni ta'minlash uchun",
+            "content": "Biz sizga Xizmatni ta'minlash uchun boshqalar bilan ma'lumot almashishimiz mumkin, jumladan: Siz ish beruvchi, pudratchi yoki boshqa biznes munosabatlarga ega bo'lgan transport tashuvchi(lar), Transport vazirligi yoki FMCSA kabi davlat idoralari, ularning so'roviga binoan va sizning ushbu idoralarga xabarlar va hisobotlar uzatishni osonlashtirish uchun, Sizga Xizmatni taqdim etish uchun biz biznes munosabatlarga ega bo'lgan uchinchi shaxslar."
+          },
+          "providers": {
+            "title": "Bizning xizmat ko'rsatuvchilarimiz",
+            "content": "Biz, shuningdek, bizga xizmat ko'rsatadigan uchinchi shaxslar bilan, jumladan, Xizmatning ishlashini kuzatib borishda yordam beradigan va siz va boshqa foydalanuvchilar Xizmat bilan qanday o'zaro aloqada bo'layotganligi va undan foydalanayotganiga asoslangan Xizmatni takomillashtirishda yordam beradigan turli tahlil xizmatlari bilan ma'lumotlarni almashishimiz mumkin."
+          },
+          "legal": {
+            "title": "Qonunlarga rioya qilish",
+            "content": "Huquqni muhofaza qilish organlari, hukumat amaldorlari yoki boshqa uchinchi shaxslar (i) rasmiy so'rov, chaqiruv qog'ozi, sud buyrug'i yoki shunga o'xshash yuridik protsedura bilan bog'liq holda; yoki (ii) biz qonunga rioya qilish, jismoniy ziyon yoki moliyaviy yo'qotishning oldini olish, shubhali noqonuniy faoliyat haqida xabar berish yoki bizning Foydalanish shartlarimiz buzilishini tekshirish uchun oshkor qilish zarur deb hisoblagan holda."
+          }
+        }
+      },
+      "choices": {
+        "title": "Ushbu Maxfiylik siyosati ostidagi tanlovlaringiz",
+        "content": "Biz sizga ma'lumotlaringiz to'planishi, foydalanilishi va ulashilishi bo'yicha tanlovlar taklif qilamiz:",
+        "subsections": {
+          "optout": {
+            "title": "Voz kechish tanlovlari",
+            "content": "Biz sizga ma'lumotlaringiz, jumladan Sizning ma'lumotlaringiz va Shaxsiy ma'lumotlaringiz to'planishi, foydalanilishi va ulashilishi bo'yicha tanlovlar taklif qilamiz va biz sizning tanlovlaringizni hurmat qilamiz. Shuni yodda tutingki, agar siz bizga ma'lum ma'lumotlarni taqdim etmaslikka qaror qilsangiz, siz Xizmatga yoki uning ba'zi qismlariga kirish imkoniga ega bo'lmasligingiz mumkin."
+          },
+          "modify": {
+            "title": "Voz kechish va o'zgartirish",
+            "content": "Agar siz bizga ushbu Maxfiylik siyosatida tasvirlangan ma'lumotlarni taqdim etishdan voz kechmoqchi bo'lsangiz, biz bilan bog'laning: info@usfasteld.com. Agar siz Xizmat doirasida bizga taqdim etgan ma'lumotlaringizni, jumladan Shaxsiy ma'lumotlaringizni o'zgartirmoqchi bo'lsangiz, hisobingizga kirib, ba'zi ma'lumotlarni o'zgartirishingiz mumkin."
+          }
+        }
+      },
+      "notifications": {
+        "title": "Sizga xabarlar va ushbu siyosatga o'zgartirishlar",
+        "content": "Biz ba'zan Xizmat bilan bog'liq xabarlar yoki ushbu Maxfiylik siyosati yoki Foydalanish shartlarimizga kiritilgan o'zgarishlar haqida xabarlar yuborish uchun bizning Xizmatimiz, jumladan mobil ilovamiz orqali sizga push-bildirishnomalar yuborishimiz mumkin. Siz istagan vaqtda qurilma darajasida sozlamalaringiz orqali yoki mobil ilova sozlamalari orqali ushbu turdagi xabarlarni o'chirib qo'yishingiz mumkin."
+      }
+    },
+    "lastUpdated": "Oxirgi yangilanish",
+    "updateDate": "1 yanvar, 2025"
+  },
+  "returnsPage": {
+    "title": "Qaytarish shartlari",
+    "introduction": "TheBestELD dan onlayn sotib olingan mahsulotni qaytarishda yodda tutishingiz kerak bo'lgan bir necha muhim narsalar mavjud:",
+    "sections": {
+      "policy": {
+        "title": "Qaytarish siyosati",
+        "content": "Bizning qaytarish siyosatimiz quyidagi asosiy punktlarni o'z ichiga oladi:",
+        "points": {
+          "timeframe": "Siz mahsulotni olgan kuningizdan qaytarishingiz kerak. Siz shartnomani bekor qilishingiz va mahsulotlarni qabul qilgan kuningizdan boshlab 7 kalendar kun ichida har qanday sababga ko'ra qaytarishingiz mumkin.",
+          "fault": "Agar yetkazib berilgandan 7 kundan keyin nuqson topilsa, siz biz bilan bog'lanishingiz kerak va biz mahsulotni o'z ixtiyorimizga ko'ra almashtiramiz yoki ta'mirlaymiz.",
+          "eligibility": "Faqat to'g'ridan-to'g'ri bluestareld.com dan sotib olingan mahsulotlarni bizga qaytarish mumkin. Dilerlar yoki qayta sotuvchilardan sotib olingan va to'g'ridan-to'g'ri bluestareld.com dan sotib olinmagan mahsulotlar qaytarish, qaytarib berish yoki almashtirish uchun yaroqli emas."
+        }
+      },
+      "process": {
+        "title": "Qaytarish jarayoni",
+        "content": "Silliq qaytarish jarayonini ta'minlash uchun, iltimos, quyidagi ko'rsatmalarga amal qiling:",
+        "points": {
+          "contact": "Mahsulotni qaytarish uchun, iltimos, biz bilan bog'laning.",
+          "accessories": "Iltimos, barcha aksessuarlar va qadoqlash bilan mahsulotlarni qaytaring. Agar siz buni qilmasangiz, biz yoki qaytarishni rad etishimiz mumkin, yoki yo'qolgan narsalar uchun pulni qaytarmasdan chegirma bilan qaytarishga ruxsat berishimiz mumkin.",
+          "condition": "Mahsulotlar yangi holatida qaytarilishi kerak. Shikastlangan, sanitariyaga zid, bo'rtib chiqqan yoki tirnalgan mahsulotlar qaytarishni rad qilishi mumkin.",
+          "packaging": "Mahsulotni jo'natish jarayonida shikastlanmasligi uchun ehtiyotkorlik bilan qadoqlang. Biz quti va pufakchali o'ramadan foydalanishni tavsiya qilamiz.",
+          "documentation": "Iltimos, qaytarayotgan mahsulotingiz uni olganda kiritilgan barcha simlar, adaptorlar va hujjatlar bilan qayta qadoqlanganligiga ishonch hosil qiling.",
+          "shipping": "Paketni kuzatishingiz uchun Insured UPS kabi xavfsiz jo'natish usulidan foydalanish tavsiya etiladi. TheBestELD tranzit vaqtida yo'qolgan mahsulotlar uchun javobgar emas va mahsulot qabul qilinmaguncha qaytarishni amalga oshirib bo'lmaydi."
+        }
+      },
+      "address": {
+        "title": "Qaytarish manzili",
+        "content": "Barcha qaytarilayotgan mahsulotlar quyidagi manzilga yuborilishi kerak:\nTheBestELD\n340 Webster Ave\nBrooklyn NY 11230\n\nBiz mahsulotingizni olgandan so'ng, darhol pulni qaytarish boshlanadi. Agar siz olib ketish mahsulotini bekor qilgan bo'lsangiz va sizdan to'lov olingan bo'lsa, biz bekor qilish so'rovingizni yuborganingizdan keyin darhol pulni qaytarishni boshlaymiz."
+      },
+      "refunds": {
+        "title": "Pul qaytarish",
+        "content": "Pochta orqali qaytarish uchun, biz qaytarishingizni olgandan so'ng, uni 3-5 ish kuni ichida ko'rib chiqamiz. Bir necha istisnolardan tashqari, biz qaytarilgan mahsulotlar uchun to'lovni siz to'lagan usul bilan amalga oshiramiz. Mablag'lar 5 ish kuni ichida mavjud bo'lishi kerak. Agar afzal ko'rsangiz, siz aynan shu mahsulot uchun almashtirish qilishingiz mumkin."
+      }
+    },
+    "help": {
+      "title": "Yordam kerakmi?",
+      "content": "Agar sizda qaytarish va pul qaytarish siyosati bo'yicha boshqa savollar bo'lsa, iltimos, bizning",
+      "contactLink": "aloqa sahifamizga tashrif buyuring"
+    },
+    "lastUpdated": "Oxirgi yangilanish",
+    "updateDate": "1 yanvar, 2025"
+  },
+  "warrantyPage": {
+    "title": "Mahsulot kafolati",
+    "introduction": "TheBestELD mahsulotlarimiz sifatini kafolatlaydi. Bizning kafolat siyosatimiz ELD qurilmalari va aksessuarlarni xarid qilishda xotirjamlik berish uchun ishlab chiqilgan.",
+    "sections": {
+      "policy": {
+        "title": "Kafolat siyosati",
+        "content": "TheBestELD mijozga, tegishli Kafolat davri mobaynida har qanday Apparat materiallar va ishlab chiqarishda nuqsonlardan xoli bo'lishini kafolatlaydi. Agar tegishli TheBestELD ma'lumotlar varaqasida boshqacha ko'rsatilmagan bo'lsa, barcha apparat mahsulotlari bir yillik kafolat bilan keladi."
+      },
+      "coverage": {
+        "title": "Nima kafolatlangan",
+        "content": "Kafolat davri mobaynida, moddiy nuqsonlarni ko'rsatadigan apparat almashtiriladi. Apparat kafolati bizdan sotib olingan har qanday mahsulotni, Kafolat sotib olingan sanadan boshlab 1 yil davomida ta'mirlashni, agar ta'mirlash imkoni bo'lmasa, almashtirishni qamrab oladi.",
+        "points": {
+          "manufacturing": "Qurilma funksionalligiga ta'sir qiladigan ishlab chiqarish nuqsonlari",
+          "electronic": "Tashqi omillar tomonidan kelib chiqmagan elektron komponent nosozliklari",
+          "software": "Qurilmaning asosiy funksionalligini sezilarli darajada yomonlashtiradigan dasturiy ta'minot muammolari"
+        }
+      },
+      "claim": {
+        "title": "Kafolatni qanday talab qilish",
+        "content": "Kafolat xizmatini olish uchun muammolarni aniqlash va xizmat ko'rsatish protseduralarini o'tkazish uchun biz bilan bog'laning. Sotib olish dalili sifatida, so'rov bo'lganda, asl sana bilan sotish hisob-fakturasi taqdim etilishi kerak.",
+        "points": {
+          "contact": "Bizning mijozlarni qo'llab-quvvatlash jamoamiz bilan elektron pochta orqali yoki telefon orqali bog'laning",
+          "details": "Siz duch kelayotgan muammo haqida tafsilotlarni, jumladan, qachon boshlanganligi va siz allaqachon o'tkazgan har qanday muammolarni bartaraf etish bo'yicha qadam tafsilotlarini taqdim eting",
+          "proof": "Sotib olish dalilini va qurilmangizning seriya raqamini taqdim etishga tayyor bo'ling",
+          "inspection": "Bizning texnik jamoamiz kafolat talabini tasdiqlashdan oldin qurilmani tekshirishi kerak bo'lishi mumkin"
+        }
+      },
+      "exclusions": {
+        "title": "Kafolat istisno hollari",
+        "content": "Bu majburiyatlar mahsulotlardan to'g'ri foydalanishga bog'liq va quyidagilarni qamrab olmaydi:",
+        "points": {
+          "physical": "Mahsulot ko'rsatmalariga muvofiq bo'lmagan foydalanish",
+          "unauthorized": "Mahsulotni TheBestELD tomonidan o'rnatilmagan yoki taqdim etilmagan har qanday xususiyatlar, aksessuarlar, dasturiy ta'minot yoki boshqa materiallar bilan birlashtirish yoki integratsiya qilish (agar TheBestELD ning aniq roziligi bo'lmasa)",
+          "misuse": "Mahsulotlardagi shtrix-kod seriya raqamlari yoki boshqa identifikatsiya belgilarini ruxsatsiz o'zgartirish, olib tashlash yoki o'chirish",
+          "software": "TheBestELD to'lovni olmagan mahsulotlar"
+        }
+      },
+      "extended": {
+        "title": "Qo'shimcha ma'lumot",
+        "content": "Cheklangan Apparat Kafolati Apparat bilan Internet ulanishini va elektr quvvatidagi uzilishlarni qamrab olmaydi. Ushbu Cheklangan Apparat Kafolati faqat Apparatning haqiqiy xaridori va yakuniy foydalanuvchisiga tegishli bo'ladi, va ushbu Cheklangan Apparat Kafolati o'zgartirilgan yoki modifikatsiya qilingan, yoki ishlatilgan holatda sotib olingan yoki TheBestELD dan boshqa har qanday manbadan sotib olingan mahsulotlar uchun mavjud emas."
+      }
+    },
+    "legalNotice": {
+      "title": "Qo'shimcha yordam kerakmi?",
+      "content": "Agar sizda boshqa savollar bo'lsa, iltimos, bizning Biz bilan bog'lanish sahifamizdan foydalanib, bizga xabar yuboring, qo'ng'iroq qiling yoki elektron pochta yuboring."
+    },
+    "lastUpdated": "Oxirgi yangilanish",
+    "updateDate": "1 yanvar, 2025"
   }
 } 

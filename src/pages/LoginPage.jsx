@@ -3,9 +3,9 @@ import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { FaEye, FaEyeSlash } from 'react-icons/fa'
 // import logo from '../assets/logo.png' // Make sure this path is correct for your logo
-
+import img1 from "../img/img1.png"
 // Using a direct HTTPS URL instead of local import
-const logoUrl = 'https://www.usfasteld.com/wp-content/themes/sanbi/images/color-logo.png'
+
 
 function LoginPage() {
   const { t } = useTranslation()
@@ -55,7 +55,7 @@ function LoginPage() {
       <div className="flex-grow flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8">
           <div className="flex justify-center mb-6">
-            <img className="h-16 w-auto" src={logoUrl} alt="Logo" />
+            <img className="h-16 w-auto" src={img1} alt="Logo" />
           </div>
           
           <h2 className="mt-4 mb-8 text-center text-2xl font-bold text-gray-900">

@@ -12,6 +12,10 @@
     "login": "Log in",
     "signup": "Sign up"
   },
+  "common": {
+    "backToHome": "Back to Home",
+    "contactUs": "Contact Us"
+  },
   "main": {
     "title": "Innovative Fleet Management",
     "subtitle": "Complete solution for your fleet management needs with advanced features and real-time monitoring.",
@@ -235,11 +239,11 @@
     "others": "Others",
     "androidApp": {
       "alt": "Android App Preview",
-      "title": "US FAST ELD Driver Android App"
+      "title": "TheBestELD Driver Android App"
     },
     "iosApp": {
       "alt": "iOS App",
-      "title": "US FAST ELD Driver iOS App"
+      "title": "TheBestELD Driver iOS App"
     },
     "truckSticker": {
       "alt": "Truck Sticker",
@@ -296,7 +300,10 @@
       "message": "Your Message",
       "required": "Required",
       "captcha": "I'm not a robot",
-      "submit": "Submit"
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "consent": "I agree to receive communications from TheBestELD.",
+      "invalidEmail": "Invalid email format"
     },
     "supportContact": {
       "email": "support@uspowereld.com",
@@ -359,7 +366,7 @@
     "productDetails": {
       "specifications": "Specifications",
       "compatibility": "Compatibility",
-      "compatibilityText": "Compatible with all US FAST ELD devices",
+      "compatibilityText": "Compatible with all TheBestELD devices",
       "warranty": "Warranty",
       "warrantyText": "1 year limited warranty",
       "shipping": "Shipping",
@@ -399,5 +406,195 @@
         "description": "The 16-Pin OBD2 cable is specifically designed for light and medium-duty vehicles equipped with standard OBD-II diagnostic ports. This universal connector provides reliable data communication between your ELD device and the vehicle's onboard computer system."
       }
     }
+  },
+  "manualsPage": {
+    "title": "User Manuals",
+    "subtitle": "Access comprehensive documentation to help you get the most out of your ELD system",
+    "download": "Download PDF",
+    "needHelp": {
+      "title": "Need Additional Help?",
+      "description": "If you can't find what you're looking for in our manuals, our support team is ready to assist you 24/7. Contact us or watch our video tutorials for additional guidance.",
+      "contactSupport": "Contact Support",
+      "watchTutorials": "Watch Video Tutorials"
+    }
+  },
+  "termsPage": {
+    "title": "Terms",
+    "introduction": "These terms of service (\"Agreement\") constitute a contract between you and TheBestELD Inc, a Pennsylvania limited liability corporation, together with its employees, consultants, directors, successors, subsidiaries, affiliates, and assignees (\"Company\", \"we\" or \"us\") and governs the terms under which you may use services offered by us, whether on behalf of yourself or on behalf of a company or other entity for which you are authorized to act. If you are acting on behalf of an entity, this Agreement constitutes a contract between the Company and that entity, and you acknowledge that you have the authority to bind such entity and its affiliates to this Agreement. The terms \"you\" or \"your\" throughout this Agreement shall mean you personally and/or the entity on whose behalf you are acting.",
+    "sections": {
+      "description": {
+        "title": "Description of the Service",
+        "content": "The service means the Company's electronic logging device and fleet management software and includes our websites, mobile websites, and mobile application and any updates or upgrades thereto (the \"Service\")."
+      },
+      "pricing": {
+        "title": "Pricing",
+        "content": "My pricing varies depending on the type of photoshoot and the specific requirements. For detailed pricing information, please reach out via the contact form, and I'll provide you with a personalized quote."
+      },
+      "access": {
+        "title": "How can I access my photos after the shoot?",
+        "content": "After the photoshoot, I will provide you with a private online gallery where you can view and download your edited photos. You'll receive a password-protected link that you can share with friends and family."
+      },
+      "contact": {
+        "title": "Contact Information",
+        "content": "For any questions regarding these terms, please contact us through the Contact page or email us at support@uspowereld.com."
+      }
+    },
+    "lastUpdated": "Last Updated",
+    "updateDate": "January 1, 2025"
+  },
+  "privacyPage": {
+    "title": "Privacy",
+    "introduction": "TheBestELD Inc takes your privacy very seriously. This Privacy Policy applies to the Service (as defined in our Terms of Service). Any terms used but not defined in this Privacy Policy have the meanings assigned to them in our Terms of Service.",
+    "sections": {
+      "collect": {
+        "title": "Information We Collect",
+        "content": "The primary reason we collect information from you is in order to provide you with our Service and to facilitate your use of the Service. We may collect the following information about you, which may include non-public personal information which can be used to identify an individual (\"Personal Information\")."
+      },
+      "account": {
+        "title": "Account and Profile Information",
+        "content": "When accessing the Service, you provide us with Your Data and Personal Information, including but not limited to your name, mobile phone number, email address, mailing address and driver's license information. Personal Information that we collect may also include documentation uploaded to your account by you or third parties to whom you have granted access to your account (including but not limited to motor vehicle records, proof(s) of insurance, and your transportation worker identification credential)."
+      },
+      "usage": {
+        "title": "Information Related to Your Use of the Service",
+        "content": "We automatically collect, record and store certain information related to your use of the Service such as: Your Data (as defined in our Terms of Service), Vehicle information, Information related to your driving of such vehicle (including but not limited to driver performance data, driving time, on and off duty status, etc), Information you send to third parties using the Service, such as any messages sent to third parties via the Service, or the transmission of Department of Transportation inspection reports, Information about your usage of the Service including duration of use, screens or webpages you visit, and other information about your activities within the Service."
+      },
+      "device": {
+        "title": "Information Sent by Your Mobile Device",
+        "content": "We collect certain information indirectly from you while you use the Service such as information about the device you use, hardware and software you use when accessing the Service, and your IP address."
+      },
+      "location": {
+        "title": "Location Information",
+        "content": "We may collect and store information about your location by converting your IP address into a geo-location or by accessing your mobile device's GPS coordinates via the location services on your device."
+      },
+      "sharing": {
+        "title": "How We Share Information with Others",
+        "content": "We share your information in the following ways:",
+        "subsections": {
+          "service": {
+            "title": "To Provide the Service",
+            "content": "We share information with others in order to provide you with the Service, including: Motor carrier(s) with which you have an employer, contractor or other business relationship, Governmental agencies such as the Department of Transportation or FMCSA upon their request and in order to facilitate transmission of messages and reports by you to these agencies, Third parties with whom we have business relationships in order to provide you with the Service."
+          },
+          "providers": {
+            "title": "Our Service Providers",
+            "content": "We also share information with third parties who provide services to us, including various analytics services, that help us monitor the performance of the Service and make improvements to the Service based on how you and other users are interacting with and using the Service."
+          },
+          "legal": {
+            "title": "Compliance with Laws",
+            "content": "Law enforcement, government officials or other third parties (i) in connection with a formal request, subpoena, court order, or similar legal procedure; or (ii) when we believe in good faith that disclosure is necessary to comply with the law, prevent physical harm or financial loss, report suspected illegal activity, or to investigate violations of our Terms of Use."
+          }
+        }
+      },
+      "choices": {
+        "title": "Your Choices under this Privacy Policy",
+        "content": "We offer you choices regarding the collection, use and sharing of your information:",
+        "subsections": {
+          "optout": {
+            "title": "Choice to Opt-Out",
+            "content": "We offer you choices regarding the collection, use and sharing of your information including Your Data and Your Personal Information and we will respect the choices you make. Please note that if you decide not to provide us with certain information, you may not be able to access the Service or portions thereof."
+          },
+          "modify": {
+            "title": "Opt-Out & Modification",
+            "content": "If you want to opt-out of providing us information that we collect from you as described in this Privacy Policy, contact us at: info@usfasteld.com. If you would like to modify information that you have provided us within the Service, including Personal Information, you are able to modify certain information by logging into your account."
+          }
+        }
+      },
+      "notifications": {
+        "title": "Notices to You and Changes to this Policy",
+        "content": "We may occasionally send you push notifications through our Service, including our mobile application, to send you Service-related notifications or notifications of changes to this Privacy Policy or our Terms of Service. You may at any time opt-out from receiving these types of communications by turning them off at the device level through your settings or through the mobile application settings."
+      }
+    },
+    "lastUpdated": "Last Updated",
+    "updateDate": "January 1, 2025"
+  },
+  "returnsPage": {
+    "title": "Returns",
+    "introduction": "There are a few important things to keep in mind when returning a product you purchased online from TheBestELD:",
+    "sections": {
+      "policy": {
+        "title": "Return Policy",
+        "content": "Our return policy includes the following key points:",
+        "points": {
+          "timeframe": "You have to return an item from the date you received it. You may cancel the contract and return your products for any reason within 7 calendar days of the day you receive the product(s).",
+          "fault": "If a fault is found after 7 days from delivery, you should contact us and we will replace or repair the product, at our discretion.",
+          "eligibility": "Only items that have been purchased directly from bluestareld.com can be returned to us. Items purchased from dealers or resellers and not bluestareld.com directly are not eligible for return, refund or exchange."
+        }
+      },
+      "process": {
+        "title": "Return Process",
+        "content": "To ensure a smooth return process, please follow these guidelines:",
+        "points": {
+          "contact": "To return an item, please contact us.",
+          "accessories": "Please return items with all accessories and packaging. If you do not, we may either deny the return, or allow a return with a nonrefundable deduction on your refund for what is missing.",
+          "condition": "Items need to be returned in a like-new condition. Items that are damaged, unsanitary, dented or scratched may be denied a return.",
+          "packaging": "Pack the item carefully so that it will not be damaged during the shipping process. We suggest using a box and bubble wrap.",
+          "documentation": "Please ensure that the item you're returning is repackaged with all the cords, adapters and documentation that were included when you received it.",
+          "shipping": "It is recommended to use a secure shipping method such as Insured UPS to send the item so that you have tracking for the package. TheBestELD is not responsible for items lost in transit and a return can not be processed until the item is received."
+        }
+      },
+      "address": {
+        "title": "Return Address",
+        "content": "All returns should be sent to the following address:\nTheBestELD\n340 Webster Ave\nBrooklyn NY 11230\n\nOnce we receive your item, a refund is initiated immediately. If you canceled a pickup item, and you were billed for it, we initiate your refund immediately after you submit your cancellation request."
+      },
+      "refunds": {
+        "title": "Refunds",
+        "content": "For returns by mail, once we receive your return, we will process it within 3–5 business days. With a few exceptions, we will reimburse you for returned items in the same way you paid for them. Funds should be available within 5 business days. If you prefer, you can make an exchange for the same item."
+      }
+    },
+    "help": {
+      "title": "Need Help?",
+      "content": "If you have further questions regarding return and refund policy please feel free to visit our",
+      "contactLink": "contact page"
+    },
+    "lastUpdated": "Last Updated",
+    "updateDate": "January 1, 2025"
+  },
+  "warrantyPage": {
+    "title": "Product Warranty",
+    "introduction": "TheBestELD stands behind the quality of our products. Our warranty policy is designed to give you peace of mind when purchasing our ELD devices and accessories.",
+    "sections": {
+      "policy": {
+        "title": "Warranty Policy",
+        "content": "TheBestELD warrants to Customer that any Hardware shall be free of defects in materials and workmanship, for the duration of the applicable Warranty Period. All hardware products come with a one year warranty unless otherwise specified on the relevant TheBestELD datasheet."
+      },
+      "coverage": {
+        "title": "What's Covered",
+        "content": "During the warranty period, hardware exhibiting material defects will be replaced. The Hardware Warranty covers the repair, and if repair is not possible, replacement of any item purchased from us, for 1 year from the date of purchase of the Warranty.",
+        "points": {
+          "manufacturing": "Manufacturing defects that affect the functionality of the device",
+          "electronic": "Electronic component failures not caused by external factors",
+          "software": "Software issues that significantly impair the core functionality of the device"
+        }
+      },
+      "claim": {
+        "title": "How to Claim Warranty",
+        "content": "To receive warranty service, contact us for problem determination and service procedures. The original dated bill of sale must be presented upon request as proof of purchase.",
+        "points": {
+          "contact": "Contact our customer support team via email or by phone",
+          "details": "Provide details about the issue you're experiencing, including when it started and any troubleshooting steps you've already taken",
+          "proof": "Be prepared to provide proof of purchase and the serial number of your device",
+          "inspection": "Our technical team may need to inspect the device before approving a warranty claim"
+        }
+      },
+      "exclusions": {
+        "title": "Warranty Exclusions",
+        "content": "These obligations are dependent upon proper use of the products and do not cover:",
+        "points": {
+          "physical": "Usage that is not in accordance with product instructions",
+          "unauthorized": "Combination or integration of the product with any features, accessories, software or other materials not installed or provided by TheBestELD (unless with TheBestELD's explicit consent)",
+          "misuse": "Unauthorized modification, removal or erasing of the barcode serial numbers or other identifying marks on the products",
+          "software": "Products for which TheBestELD has not received payment"
+        }
+      },
+      "extended": {
+        "title": "Additional Information",
+        "content": "The Limited Hardware Warranty does not cover Internet connectivity with the Hardware and interruptions in electric power. This Limited Hardware Warranty will only apply to the actual purchaser and end-user of the Hardware, and this Limited Hardware Warranty is not available for products that have been altered or modified, or that were purchased used or from any source other than TheBestELD."
+      }
+    },
+    "legalNotice": {
+      "title": "Need Additional Help?",
+      "content": "If you have other queries, please send us a message, call us, or email us, using our Contact Us page."
+    },
+    "lastUpdated": "Last Updated",
+    "updateDate": "January 1, 2025"
   }
 } 

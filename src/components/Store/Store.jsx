@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { FaShoppingCart } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import Header from '../header/Header'
+import Footer from '../footer/Footer'
 
 // Product images - using real images that match the design
 const productImages = {
@@ -165,6 +166,7 @@ function Store() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

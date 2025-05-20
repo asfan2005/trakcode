@@ -166,7 +166,7 @@ function ProductDetail() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="p-6 rounded-lg border transition-colors duration-300 hover:bg-gray-50">
               <p className="font-semibold text-lg mb-3 text-gray-800">{t('storePage.productDetails.compatibility')}</p>
-              <p className="text-gray-700">{t('storePage.productDetails.compatibilityText', 'Compatible with all US FAST ELD devices')}</p>
+              <p className="text-gray-700">{t('storePage.productDetails.compatibilityText', 'Compatible with all TheBestELD devices')}</p>
             </div>
             <div className="p-6 rounded-lg border transition-colors duration-300 hover:bg-gray-50">
               <p className="font-semibold text-lg mb-3 text-gray-800">{t('storePage.productDetails.warranty')}</p>
