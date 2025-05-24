@@ -232,7 +232,7 @@
     "alertMessage": "Yuklab olish havolasi hozirda mavjud emas",
     "joinOthers": "BOSHQALARGA QO'SHILING",
     "title": "Yuklab olish",
-    "subtitle": "US Power ELD bilan transport parkingizni qurishni boshlang",
+    "subtitle": "TheBestELD bilan transport parkingizni qurishni boshlang",
     "downloads": "yuklash",
     "downloadNow": "Hozir yuklab olish",
     "applications": "Ilovalar",
@@ -290,7 +290,7 @@
     "title": "Do'stona jamoamiz bilan suhbatlashing",
     "subtitle": "Sizdan xabar olishni xohlaymiz. Iltimos, ushbu shaklni to'ldiring yoki bizga elektron pochta yuboring.",
     "contactUs": "ELD obunasi uchun biz bilan bog'laning",
-    "company": "US Power ELD",
+    "company": "TheBestELD",
     "supportTeam": "Qo'llab-quvvatlash jamoasi",
     "salesTeam": "Sotish jamoasi",
     "form": {
@@ -306,12 +306,12 @@
       "invalidEmail": "Elektron pochta formati noto'g'ri"
     },
     "supportContact": {
-      "email": "support@uspowereld.com",
+      "email": "info@thebesteld247.com",
       "hours": "24 / 7"
     },
     "salesContact": {
-      "phone": "+1 (332) 232-9292",
-      "email": "info@uspowereld.com",
+      "phone": "+1-332-223-8689",
+      "email": "info@thebesteld247.com",
       "hours": "Dushanba - Shanba, 8:00 - 17:00 EST"
     },
     "success": "Shakl muvaffaqiyatli yuborildi!"
@@ -436,7 +436,7 @@
       },
       "contact": {
         "title": "Aloqa ma'lumotlari",
-        "content": "Ushbu shartlar bo'yicha savollaringiz bo'lsa, iltimos, Aloqa sahifasi orqali yoki support@uspowereld.com elektron pochta orqali biz bilan bog'laning."
+        "content": "Ushbu shartlar bo'yicha savollaringiz bo'lsa, iltimos, Aloqa sahifasi orqali yoki info@thebesteld247.com elektron pochta orqali biz bilan bog'laning."
       }
     },
     "lastUpdated": "Oxirgi yangilanish",

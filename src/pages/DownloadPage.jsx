@@ -24,7 +24,7 @@ function DownloadPage() {
             {t('downloadPage.title', 'Download')}
           </h1>
           <p className="text-xl text-gray-700">
-            {t('downloadPage.subtitle', 'Build your Fleet Power with US Power ELD')}
+            {t('downloadPage.subtitle', 'Build your Fleet Power with TheBestELD')}
           </p>
         </div>
 

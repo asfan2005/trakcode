@@ -294,7 +294,7 @@ function DownloadAndPricePage() {
                         <div className="text-center">
                             <h3 className="text-xl font-semibold text-gray-800 mb-4">{t('pricingSection.standardPlan')}</h3>
                             <div className="text-5xl font-bold text-gray-900 mb-6">
-                                $80<span className="text-2xl font-normal text-gray-600">{t('pricingSection.perMonth')}</span>
+                                $59.99<span className="text-2xl font-normal text-gray-600">{t('pricingSection.perMonth')}</span>
                             </div>
                         </div>
 
