@@ -306,12 +306,12 @@
       "invalidEmail": "Invalid email format"
     },
     "supportContact": {
-      "email": "info@thebesteld247.com",
+      "email": "admin@mjproconsulting.com",
       "hours": "24 / 7"
     },
     "salesContact": {
-      "phone": "+1-332-223-8689",
-      "email": "info@thebesteld247.com",
+      "phone": "+1 (513) 440 8664",
+      "email": "admin@mjproconsulting.com",
       "hours": "Monday - Saturday, 8AM - 5PM EST"
     },
     "success": "Form submitted successfully!"
@@ -436,7 +436,7 @@
       },
       "contact": {
         "title": "Contact Information",
-        "content": "For any questions regarding these terms, please contact us through the Contact page or email us at info@thebesteld247.com."
+        "content": "For any questions regarding these terms, please contact us through the Contact page or email us at admin@mjproconsulting.com."
       }
     },
     "lastUpdated": "Last Updated",
@@ -597,4 +597,4 @@
     "lastUpdated": "Last Updated",
     "updateDate": "January 1, 2025"
   }
-} 
+}

@@ -306,12 +306,12 @@
       "invalidEmail": "Elektron pochta formati noto'g'ri"
     },
     "supportContact": {
-      "email": "info@thebesteld247.com",
+      "email": "admin@mjproconsulting.com",
       "hours": "24 / 7"
     },
     "salesContact": {
-      "phone": "+1-332-223-8689",
-      "email": "info@thebesteld247.com",
+      "phone": "+1 (513) 440 8664",
+      "email": "admin@mjproconsulting.com",
       "hours": "Dushanba - Shanba, 8:00 - 17:00 EST"
     },
     "success": "Shakl muvaffaqiyatli yuborildi!"
@@ -436,7 +436,7 @@
       },
       "contact": {
         "title": "Aloqa ma'lumotlari",
-        "content": "Ushbu shartlar bo'yicha savollaringiz bo'lsa, iltimos, Aloqa sahifasi orqali yoki info@thebesteld247.com elektron pochta orqali biz bilan bog'laning."
+        "content": "Ushbu shartlar bo'yicha savollaringiz bo'lsa, iltimos, Aloqa sahifasi orqali yoki admin@mjproconsulting.com elektron pochta orqali biz bilan bog'laning."
       }
     },
     "lastUpdated": "Oxirgi yangilanish",
@@ -597,4 +597,4 @@
     "lastUpdated": "Oxirgi yangilanish",
     "updateDate": "1 yanvar, 2025"
   }
-} 
+}
