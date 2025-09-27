@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
+import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const Slides = () => {
   const { t } = useTranslation();
@@ -10,55 +10,59 @@ const Slides = () => {
       id: 1,
       key: "macroPoint",
       logo: "https://framerusercontent.com/images/sBbzqK4UjGIuIvdFz25LFcR0riA.png",
-      logoOne:"https://framerusercontent.com/images/sBbzqK4UjGIuIvdFz25LFcR0riA.png"
+      logoOne:
+        "https://framerusercontent.com/images/sBbzqK4UjGIuIvdFz25LFcR0riA.png",
     },
     {
       id: 2,
       key: "fourKites",
       logo: "https://www.usfasteld.com/wp-content/uploads/2023/08/2.png",
-      logoOne: "https://www.usfasteld.com/wp-content/uploads/2023/08/2.png"
+      logoOne: "https://www.usfasteld.com/wp-content/uploads/2023/08/2.png",
     },
     {
       id: 3,
       key: "project44",
       logo: "https://www.usfasteld.com/wp-content/uploads/2023/08/3.webp",
-      logoOne: "https://www.usfasteld.com/wp-content/uploads/2023/08/3.webp"
+      logoOne: "https://www.usfasteld.com/wp-content/uploads/2023/08/3.webp",
     },
     {
       id: 4,
       key: "truckerTools",
       logo: "https://www.usfasteld.com/wp-content/uploads/2023/08/4.webp",
-      logoOne: "https://www.usfasteld.com/wp-content/uploads/2023/08/4.webp"
+      logoOne: "https://www.usfasteld.com/wp-content/uploads/2023/08/4.webp",
     },
     {
       id: 5,
       key: "goHighway",
       logo: "https://www.usfasteld.com/wp-content/uploads/2023/08/5.webp",
-      logoOne: "https://www.usfasteld.com/wp-content/uploads/2023/08/5.webp"
+      logoOne: "https://www.usfasteld.com/wp-content/uploads/2023/08/5.webp",
     },
     {
       id: 6,
       key: "amousTMS",
       logo: "https://www.usfasteld.com/wp-content/uploads/2023/08/6.webp",
       logoOne: "https://www.usfasteld.com/wp-content/uploads/2023/08/6.webp",
-      comingSoon: true
+      comingSoon: true,
     },
     {
       id: 7,
       key: "truckerCloud",
       logo: "https://www.usfasteld.com/wp-content/uploads/2023/08/7.webp",
       logoOne: "https://www.usfasteld.com/wp-content/uploads/2023/08/7.webp",
-      comingSoon: true
-    }
+      comingSoon: true,
+    },
   ];
-  
 
   const nextSlide = () => {
-    setCurrentSlide((prev) => (prev === integrationCards.length - 1 ? 0 : prev + 1));
+    setCurrentSlide((prev) =>
+      prev === integrationCards.length - 1 ? 0 : prev + 1
+    );
   };
 
   const prevSlide = () => {
-    setCurrentSlide((prev) => (prev === 0 ? integrationCards.length - 1 : prev - 1));
+    setCurrentSlide((prev) =>
+      prev === 0 ? integrationCards.length - 1 : prev - 1
+    );
   };
 
   useEffect(() => {
@@ -74,9 +78,9 @@ const Slides = () => {
             <div
               key={card.id}
               className={`transform transition-all duration-700 ease-in-out ${
-                index === currentSlide 
-                  ? 'opacity-100 scale-100 translate-x-0' 
-                  : 'opacity-0 scale-95 translate-x-full absolute'
+                index === currentSlide
+                  ? "opacity-100 scale-100 translate-x-0"
+                  : "opacity-0 scale-95 translate-x-full absolute"
               }`}
             >
               <div className="flex flex-col md:flex-row items-center gap-12">
@@ -94,8 +98,8 @@ const Slides = () => {
                 {/* Content Section */}
                 <div className="w-full md:w-1/2">
                   <div className="flex items-center gap-3">
-                    <img  
-                      src={card.logoOne} 
+                    <img
+                      src={card.logoOne}
                       alt={t(`slides.cards.${card.key}.name`)}
                       className="w-[50px] h-[50px] rounded-full object-cover border-2 border-gray-200"
                     />
@@ -103,39 +107,25 @@ const Slides = () => {
                       {t(`slides.cards.${card.key}.name`)}
                     </span>
                   </div>
-                  <h3 className="text-4xl font-bold mb-4 mt-4 text-gray-900">{t(`slides.cards.${card.key}.title`)}</h3>
-                  <p className="text-xl leading-relaxed text-gray-600">{t(`slides.cards.${card.key}.description`)}</p>
+                  <h3 className="text-4xl font-bold mb-4 mt-4 text-gray-900">
+                    {t(`slides.cards.${card.key}.title`)}
+                  </h3>
+                  <p className="text-xl leading-relaxed text-gray-600">
+                    {t(`slides.cards.${card.key}.description`)}
+                  </p>
                   {card.comingSoon && (
                     <span className="inline-block mt-4 px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium">
-                      {t('slides.comingSoon')}
+                      {t("slides.comingSoon")}
                     </span>
                   )}
                 </div>
               </div>
             </div>
           ))}
-
-         
-
-          {/* Dots Navigation */}
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex space-x-2 mb-8">
-            {integrationCards.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentSlide(index)}
-                className={`h-2 rounded-full transition-all duration-300 ${
-                  index === currentSlide 
-                    ? 'bg-blue-600 w-8' 
-                    : 'bg-gray-300 w-2 hover:bg-blue-400'
-                }`}
-                aria-label={t('slides.slideNavigation', { number: index + 1 })}
-              />
-            ))}
-          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Slides; 
+export default Slides;

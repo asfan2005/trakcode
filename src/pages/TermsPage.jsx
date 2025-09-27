@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
-import Header from '../components/header/Header'
+import Header from '../components/header/Header12'
 import Footer from '../components/footer/Footer'
 import { FaArrowLeft } from 'react-icons/fa'
 

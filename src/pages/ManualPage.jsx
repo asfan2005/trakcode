@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
-import Header from '../components/header/Header'
+import Header from '../components/header/Header12'
 import Footer from '../components/footer/Footer'
 import { FaDownload, FaBookOpen, FaBook, FaTools, FaQuestionCircle, FaFileAlt, FaLanguage } from 'react-icons/fa'
 

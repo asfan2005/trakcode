@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import rasm1 from "../../img/rasm1.jpg";
 function Compliance() {
   const { t, i18n } = useTranslation();
   const [language, setLanguage] = useState(i18n.language);
 
   const toggleLanguage = () => {
-    const newLang = i18n.language === 'en' ? 'uz' : 'en';
+    const newLang = i18n.language === "en" ? "uz" : "en";
     i18n.changeLanguage(newLang);
     setLanguage(newLang);
   };
@@ -18,51 +18,81 @@ function Compliance() {
       titleKey: "compliance.features.compliance.title",
       descriptionKey: "compliance.features.compliance.description",
       icon: (
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-      )
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M5 13l4 4L19 7"
+        />
+      ),
     },
     {
       id: 2,
       titleKey: "compliance.features.records.title",
       descriptionKey: "compliance.features.records.description",
       icon: (
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-      )
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+        />
+      ),
     },
     {
       id: 3,
       titleKey: "compliance.features.messaging.title",
       descriptionKey: "compliance.features.messaging.description",
       icon: (
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"
+        />
       ),
-      comingSoon: false
+      comingSoon: false,
     },
     {
       id: 4,
       titleKey: "compliance.features.nightMode.title",
       descriptionKey: "compliance.features.nightMode.description",
       icon: (
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-      )
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+        />
+      ),
     },
     {
       id: 5,
       titleKey: "compliance.features.easyAccess.title",
       descriptionKey: "compliance.features.easyAccess.description",
       icon: (
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
-      )
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5"
+        />
+      ),
     },
     {
       id: 6,
       titleKey: "compliance.features.scanner.title",
       descriptionKey: "compliance.features.scanner.description",
       icon: (
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+        />
       ),
-      comingSoon: false
-    }
+      comingSoon: false,
+    },
   ];
 
   const containerVariants = {
@@ -70,9 +100,9 @@ function Compliance() {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2
-      }
-    }
+        staggerChildren: 0.2,
+      },
+    },
   };
 
   const itemVariants = {
@@ -82,27 +112,16 @@ function Compliance() {
       y: 0,
       transition: {
         type: "spring",
-        stiffness: 100
-      }
-    }
+        stiffness: 100,
+      },
+    },
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-blue-50 overflow-x-hidden">
       <div className="max-w-7xl mx-auto px-4 py-16">
         {/* Language toggle button */}
-        <div className="flex justify-end mb-4">
-          <button 
-            onClick={toggleLanguage}
-            className="flex items-center space-x-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full shadow-md hover:bg-blue-50 transition-all duration-300"
-          >
-            <span className="text-gray-700 font-medium">{language === 'en' ? 'UZ' : 'EN'}</span>
-            <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path>
-            </svg>
-          </button>
-        </div>
-        
+
         {/* Header section with animation */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -116,7 +135,7 @@ function Compliance() {
             transition={{ delay: 0.3 }}
             className="inline-block text-blue-600 font-medium mb-2 bg-blue-50 px-4 py-1 rounded-full"
           >
-            {t('compliance.badge')}
+            {t("compliance.badge")}
           </motion.span>
           <motion.h1
             initial={{ scale: 0.9 }}
@@ -124,7 +143,7 @@ function Compliance() {
             transition={{ duration: 0.5 }}
             className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800"
           >
-            {t('compliance.title')}
+            {t("compliance.title")}
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
@@ -132,7 +151,7 @@ function Compliance() {
             transition={{ delay: 0.4 }}
             className="text-gray-600 text-lg max-w-2xl mx-auto"
           >
-            {t('compliance.subtitle')}
+            {t("compliance.subtitle")}
           </motion.p>
         </motion.div>
 
@@ -159,8 +178,8 @@ function Compliance() {
           >
             <div className="relative">
               <div className="absolute inset-0 bg-blue-500 rounded-3xl blur-2xl opacity-20 animate-pulse" />
-              <img 
-                src="https://www.usfasteld.com/wp-content/uploads/2023/08/feature-mobile-01.png"
+              <img
+                src={rasm1}
                 alt="ELD App Interface"
                 className="relative w-full max-w-[320px] h-auto rounded-3xl shadow-2xl"
               />
@@ -189,19 +208,19 @@ function FeatureCard({ feature, t }) {
     <motion.div
       variants={{
         hidden: { opacity: 0, y: 20 },
-        visible: { opacity: 1, y: 0 }
+        visible: { opacity: 1, y: 0 },
       }}
       whileHover={{ scale: 1.05 }}
       className="text-center group"
     >
-      <motion.div 
+      <motion.div
         className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4 mx-auto
                    group-hover:bg-blue-600 transition-colors duration-300"
       >
-        <svg 
-          className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors duration-300" 
-          fill="none" 
-          stroke="currentColor" 
+        <svg
+          className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors duration-300"
+          fill="none"
+          stroke="currentColor"
           viewBox="0 0 24 24"
         >
           {feature.icon}
@@ -218,7 +237,7 @@ function FeatureCard({ feature, t }) {
           whileHover={{ scale: 1.05 }}
           className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white text-xs px-4 py-1 rounded-full mt-3 shadow-lg"
         >
-          {t('compliance.comingSoon')}
+          {t("compliance.comingSoon")}
         </motion.span>
       )}
     </motion.div>

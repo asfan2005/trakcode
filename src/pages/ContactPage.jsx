@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { FaEnvelope, FaClock, FaPhone } from 'react-icons/fa'
-import Header from '../components/header/Header'
+import Header from '../components/header/Header12'
 
 function ContactPage() {
   const { t } = useTranslation()

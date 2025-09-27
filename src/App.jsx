@@ -6,6 +6,7 @@ import {
   Featurs,
   Footer,
   Header,
+  Header1,
   Integrations,
   Main,
   Slides,
@@ -20,8 +21,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
-      <Header />
-      <Main />
+      <Header1 />
       <Featurs />
       <Compliance />
       <SmartDashboart />

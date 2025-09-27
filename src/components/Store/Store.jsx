@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { FaShoppingCart } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import Header from '../header/Header'
+import Header from '../header/Header12'
 import Footer from '../footer/Footer'
 
 // Product images - using real images that match the design

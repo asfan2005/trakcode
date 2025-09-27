@@ -1,224 +1,191 @@
 import React, { useState, useEffect } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
-import { FaTruck, FaBars, FaTimes } from "react-icons/fa";
-import { useTranslation } from "react-i18next";
+import {
+  Menu,
+  X,
+  ChevronRight,
+  Shield,
+  MapPin,
+  TrendingUp,
+  Users,
+  Clock,
+  Phone,
+  Mail,
+  Navigation,
+} from "lucide-react";
+import { FaTruck } from "react-icons/fa";
+import logo2 from "../../img/logo2.png";
+import { useNavigate } from "react-router-dom";
 
-function Header() {
+const EvoEldLanding = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-  const { t, i18n } = useTranslation();
-  const isUzbek = i18n.language === "uz";
-  const location = useLocation();
+  const [scrollY, setScrollY] = useState(0);
   const navigate = useNavigate();
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 10);
-    };
+    const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Add overflow hidden to body when mobile menu is open
-  useEffect(() => {
-    if (isMenuOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [isMenuOpen]);
-
-  const handlePricingClick = (e) => {
-    e.preventDefault();
-
-    // If we're on the home page, just scroll to the pricing section
-    if (location.pathname === "/") {
-      const pricingSection = document.getElementById("pricing");
-      if (pricingSection) {
-        pricingSection.scrollIntoView({ behavior: "smooth" });
-      }
-    } else {
-      // If we're on another page, navigate to home and then scroll
-      navigate("/", { state: { scrollToPricing: true } });
-    }
-
-    // Close mobile menu if open
-    setIsMenuOpen(false);
-  };
-
-  // Effect to handle scrolling after navigation
-  useEffect(() => {
-    if (location.state?.scrollToPricing && location.pathname === "/") {
-      setTimeout(() => {
-        const pricingSection = document.getElementById("pricing");
-        if (pricingSection) {
-          pricingSection.scrollIntoView({ behavior: "smooth" });
-        }
-      }, 500); // Small delay to ensure the component has mounted
-    }
-  }, [location]);
-
-  const navItems = [
-    { path: "/", label: t("header.home") },
-    { path: "/store", label: t("header.store") },
-    { path: "/downloads", label: t("header.downloads") },
-    {
-      path: "#pricing",
-      label: t("header.pricing"),
-      onClick: handlePricingClick,
-    },
-    { path: "/contact", label: t("header.contactUs") },
+  const navigation = [
+    { path: "/", label: "Home" },
+    { path: "/store", label: "Store" },
+    { path: "/downloads", label: "Download" },
+    { path: "#pricing", label: "Pricing" },
+    { path: "/contact", label: "Contact Us" },
   ];
 
+  const handleLogin = () => {
+    navigate("/login");
+  };
+
+  const handleSignIn = () => {
+    navigate("/signup");
+  };
+
   return (
-    <>
-      {/* Add overflow-x-hidden to prevent horizontal scrolling */}
-      <div className="overflow-x-hidden w-full">
+    <div className="min-h-screen relative z-[1000]">
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url(${logo2})`,
+        }}
+      />
+
+      {/* Content */}
+      <div className="relative z-10">
+        {/* Header */}
         <header
-          className={`fixed top-0 left-0 right-0 w-full ${
-            scrolled
-              ? "bg-white/95 backdrop-blur-sm shadow-lg"
-              : "bg-gradient-to-r from-blue-900 to-blue-800"
-          } transition-all duration-300 z-50`}
+          className={`fixed top-0 left-0 right-0 z-[1000] transition-all duration-300 ${
+            scrollY > 50
+              ? "bg-white/90 backdrop-blur-sm shadow-lg"
+              : "bg-transparent"
+          }`}
         >
-          <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
-            {/* Reduced height from h-14/h-16 to h-12/h-14 */}
-            <div className="h-12 sm:h-14 flex items-center justify-between">
-              {/* Logo - Enhanced design */}
-              <Link to="/" className="flex items-center group flex-shrink-0">
-                <div className="relative">
-                  <div className="bg-white p-1 rounded-lg shadow-md">
-                    <FaTruck className="h-4 w-4 sm:h-5 sm:w-5 text-blue-900 group-hover:text-yellow-500 transform group-hover:scale-110 transition-all duration-300" />
-                  </div>
-                  <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-yellow-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+          <div className="container mx-auto px-4 sm:px-6">
+            <div className="flex items-center justify-between h-16">
+              {/* Logo */}
+              <a
+                href="/"
+                className="flex items-center space-x-2 sm:space-x-3 cursor-pointer hover:opacity-80 transition-opacity duration-200"
+              >
+                <div>
+                  <FaTruck
+                    className={`h-4 w-4 sm:h-5 sm:w-5 transition-all duration-300 ${
+                      scrollY > 50
+                        ? "text-gray-900 group-hover:text-yellow-500"
+                        : "text-white group-hover:text-yellow-500"
+                    } transform group-hover:scale-110`}
+                  />
                 </div>
-                <div className="ml-2 sm:ml-2.5">
-                  <span
-                    className={`text-sm sm:text-base font-bold tracking-tight ${
-                      scrolled ? "text-blue-900" : "text-white"
-                    }`}
-                  >
-                    Elbrus
-                  </span>
-                  <span
-                    className={`text-sm sm:text-base font-bold tracking-tight ${
-                      scrolled ? "text-yellow-500" : "text-yellow-400"
-                    }`}
-                  >
-                    Elogs
-                  </span>
-                </div>
-              </Link>
-
-              {/* Desktop Navigation - Enhanced with better spacing and hover effects */}
-              <div className="hidden lg:flex items-center justify-center flex-1 mx-3 xl:mx-4">
-                <div className="flex justify-center gap-3 xl:gap-4 w-full max-w-4xl mx-auto">
-                  {navItems.map((item) => (
-                    <Link
-                      key={item.path}
-                      to={item.path}
-                      onClick={item.onClick}
-                      className={`text-center text-xs xl:text-sm font-medium px-1 py-1 rounded-md transition-all duration-300 ${
-                        scrolled
-                          ? "text-blue-900 hover:text-yellow-500"
-                          : "text-white hover:text-yellow-300"
-                      } hover:bg-white/10`}
-                    >
-                      {item.label}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-
-              {/* Auth Buttons - Enhanced design without language switcher */}
-              <div className="hidden lg:flex items-center space-x-1.5 xl:space-x-2 flex-shrink-0">
-                <Link
-                  to="/login"
-                  className={`whitespace-nowrap text-xs font-medium px-2.5 py-1 rounded-lg transition-all duration-300 ${
-                    scrolled
-                      ? "text-blue-900 hover:text-yellow-600"
-                      : "text-white hover:text-yellow-300"
-                  } hover:bg-white/10`}
-                >
-                  {t("header.login")}
-                </Link>
-                <Link
-                  to="/signup"
-                  className="whitespace-nowrap text-xs bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 px-3 py-1 rounded-lg font-semibold hover:from-yellow-300 hover:to-yellow-400 transform hover:scale-105 transition-all duration-300 shadow-lg shadow-yellow-400/30"
-                >
-                  {t("header.signup")}
-                </Link>
-              </div>
-
-              {/* Mobile Menu Button - Enhanced design without language switcher */}
-              <div className="flex items-center lg:hidden">
-                <button
-                  className={`p-1 rounded-lg transition-colors ${
-                    scrolled
-                      ? "text-blue-900 hover:bg-blue-100"
-                      : "text-white hover:bg-white/20"
+                <span
+                  className={`text-xl sm:text-2xl font-bold transition-colors duration-300 ${
+                    scrollY > 50 ? "text-gray-900" : "text-white drop-shadow-lg"
                   }`}
-                  onClick={() => setIsMenuOpen(!isMenuOpen)}
-                  aria-label="Toggle menu"
                 >
-                  {isMenuOpen ? <FaTimes size={16} /> : <FaBars size={16} />}
+                  Elbrus Elogs
+                </span>
+              </a>
+
+              {/* Desktop Navigation */}
+              <nav className="hidden z-[100000] lg:flex items-center space-x-6 xl:space-x-8">
+                {navigation.map((item) => (
+                  <a
+                    key={item.label}
+                    href={item.path}
+                    className={`transition-colors duration-200 font-medium text-sm xl:text-base ${
+                      scrollY > 50
+                        ? "text-gray-700 hover:text-cyan-600"
+                        : "text-white hover:text-cyan-200"
+                    }`}
+                  >
+                    {item.label}
+                  </a>
+                ))}
+              </nav>
+
+              {/* Login and Sign In Buttons */}
+              <div className="hidden lg:flex items-center space-x-3">
+                <button
+                  onClick={handleLogin}
+                  className={`px-4 xl:px-6 py-2 rounded-lg font-semibold transition-all duration-300 text-sm xl:text-base transform hover:scale-105 shadow-lg ${
+                    scrollY > 50
+                      ? "bg-cyan-500 hover:bg-cyan-600 text-white hover:shadow-cyan-500/30"
+                      : "bg-white/20 hover:bg-white/30 text-white border border-white/30 hover:shadow-white/20"
+                  }`}
+                >
+                  Login
+                </button>
+                <button
+                  onClick={handleSignIn}
+                  className={`px-4 xl:px-6 py-2 rounded-lg font-semibold transition-all duration-300 text-sm xl:text-base transform hover:scale-105 ${
+                    scrollY > 50
+                      ? "bg-transparent hover:bg-gray-100 text-gray-800 border border-gray-300 hover:border-cyan-400"
+                      : "bg-transparent hover:bg-white/20 text-white border border-white/30 hover:border-white/50"
+                  }`}
+                >
+                  Sign In
                 </button>
               </div>
+
+              {/* Mobile Menu Button */}
+              <button
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                className={`lg:hidden p-2 ${
+                  scrollY > 50 ? "text-gray-800" : "text-white"
+                }`}
+              >
+                {isMenuOpen ? (
+                  <X className="w-5 h-5 sm:w-6 sm:h-6" />
+                ) : (
+                  <Menu className="w-5 h-5 sm:w-6 sm:h-6" />
+                )}
+              </button>
             </div>
 
-            {/* Mobile Menu - Enhanced fullscreen overlay with better styling */}
+            {/* Mobile Menu */}
             {isMenuOpen && (
-              <div className="fixed inset-0 top-12 sm:top-14 bg-blue-900 lg:hidden z-40 animate-fadeIn">
-                <div className="px-3 py-4 max-h-[calc(100vh-3rem)] sm:max-h-[calc(100vh-3.5rem)] overflow-y-auto">
-                  <div className="flex flex-col space-y-1 mb-4">
-                    {navItems.map((item) => (
-                      <Link
-                        key={item.path}
-                        to={item.path}
-                        onClick={(e) => {
-                          if (item.onClick) {
-                            item.onClick(e);
-                          } else {
-                            setIsMenuOpen(false);
-                          }
-                        }}
-                        className="block text-white hover:text-yellow-300 transition-colors font-medium text-base py-2 px-3 rounded-lg hover:bg-white/10"
-                      >
-                        {item.label}
-                      </Link>
-                    ))}
-                  </div>
-
-                  <div className="pt-2 flex flex-col space-y-2">
-                    <Link
-                      to="/login"
-                      className="block w-full text-center text-white hover:text-yellow-300 transition-all duration-300 font-medium py-2 rounded-lg border border-white/30 hover:border-yellow-300 hover:bg-white/10"
+              <div className="lg:hidden bg-white/90 backdrop-blur-sm border-t border-gray-200">
+                <div className="px-2 pt-2 pb-3 space-y-1">
+                  {navigation.map((item) => (
+                    <a
+                      key={item.label}
+                      href={item.path}
+                      className="block px-3 py-2 text-gray-700 hover:text-cyan-600 transition-colors duration-200 text-base"
                       onClick={() => setIsMenuOpen(false)}
                     >
-                      {t("header.login")}
-                    </Link>
-                    <Link
-                      to="/signup"
-                      className="block w-full text-center bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 py-2 rounded-lg font-semibold hover:from-yellow-300 hover:to-yellow-400 transition-all duration-300 shadow-lg shadow-yellow-400/50"
-                      onClick={() => setIsMenuOpen(false)}
+                      {item.label}
+                    </a>
+                  ))}
+                  <div className="flex flex-col space-y-3 px-3 py-3">
+                    <button
+                      onClick={() => {
+                        handleLogin();
+                        setIsMenuOpen(false);
+                      }}
+                      className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-2 rounded-lg font-semibold transition-colors duration-200"
                     >
-                      {t("header.signup")}
-                    </Link>
+                      Login
+                    </button>
+                    <button
+                      onClick={() => {
+                        handleSignIn();
+                        setIsMenuOpen(false);
+                      }}
+                      className="bg-transparent hover:bg-gray-100 text-gray-800 border border-gray-300 hover:border-cyan-400 px-6 py-2 rounded-lg font-semibold transition-colors duration-200"
+                    >
+                      Sign In
+                    </button>
                   </div>
                 </div>
               </div>
             )}
-          </nav>
+          </div>
         </header>
       </div>
-
-      {/* Add extra div with animation to prevent content jumping when menu opens */}
-      {isMenuOpen && <div className="h-screen w-full" />}
-    </>
+    </div>
   );
-}
+};
 
-export default Header;
+export default EvoEldLanding;

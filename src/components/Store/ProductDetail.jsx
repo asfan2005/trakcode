@@ -2,7 +2,7 @@ import React from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { FaArrowLeft, FaShoppingCart, FaCheckCircle, FaInfoCircle } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
-import Header from '../header/Header'
+import Header from '../header/Header12'
 
 // Product images
 const productImages = {
