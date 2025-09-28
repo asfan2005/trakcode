@@ -232,18 +232,18 @@
     "alertMessage": "Yuklab olish havolasi hozirda mavjud emas",
     "joinOthers": "BOSHQALARGA QO'SHILING",
     "title": "Yuklab olish",
-    "subtitle": "TheBestELD bilan transport parkingizni qurishni boshlang",
+    "subtitle": "ElbrusElogs bilan transport parkingizni qurishni boshlang",
     "downloads": "yuklash",
     "downloadNow": "Hozir yuklab olish",
     "applications": "Ilovalar",
     "others": "Boshqalar",
     "androidApp": {
       "alt": "Android ilova ko'rinishi",
-      "title": "TheBestELD haydovchi Android ilovasi"
+      "title": "ElbrusElogs haydovchi Android ilovasi"
     },
     "iosApp": {
       "alt": "iOS ilova",
-      "title": "TheBestELD haydovchi iOS ilovasi"
+      "title": "ElbrusElogs haydovchi iOS ilovasi"
     },
     "truckSticker": {
       "alt": "Yuk mashinasi stikeri",
@@ -290,7 +290,7 @@
     "title": "Do'stona jamoamiz bilan suhbatlashing",
     "subtitle": "Sizdan xabar olishni xohlaymiz. Iltimos, ushbu shaklni to'ldiring yoki bizga elektron pochta yuboring.",
     "contactUs": "ELD obunasi uchun biz bilan bog'laning",
-    "company": "TheBestELD",
+    "company": "ElbrusElogs",
     "supportTeam": "Qo'llab-quvvatlash jamoasi",
     "salesTeam": "Sotish jamoasi",
     "form": {
@@ -302,7 +302,7 @@
       "captcha": "Men robot emasman",
       "submit": "Yuborish",
       "submitting": "Yuborilmoqda...",
-      "consent": "TheBestELD dan xabarlar olishga rozilik bildiraman.",
+      "consent": "ElbrusElogs dan xabarlar olishga rozilik bildiraman.",
       "invalidEmail": "Elektron pochta formati noto'g'ri"
     },
     "supportContact": {
@@ -366,7 +366,7 @@
     "productDetails": {
       "specifications": "Texnik xususiyatlar",
       "compatibility": "Moslik",
-      "compatibilityText": "Barcha TheBestELD qurilmalari bilan mos keladi",
+      "compatibilityText": "Barcha ElbrusElogs qurilmalari bilan mos keladi",
       "warranty": "Kafolat",
       "warrantyText": "1 yillik cheklangan kafolat",
       "shipping": "Yetkazib berish",
@@ -420,7 +420,7 @@
   },
   "termsPage": {
     "title": "Foydalanish shartlari",
-    "introduction": "Ushbu xizmat shartlari (\"Shartnoma\") siz va Pensilvaniya cheklangan javobgarlik korporatsiyasi TheBestELD Inc, uning xodimlari, maslahatchilari, direktorlari, vorislar, sho'ba kompaniyalari, afillanganlar va tayinlanganlar (\"Kompaniya\", \"biz\" yoki \"biz\") o'rtasidagi shartnomani tashkil etadi va biz tomonimizdan taklif qilinadigan xizmatlardan foydalanish shartlarini boshqaradi, o'zingiz nomidan yoki siz vakolat berilgan kompaniya yoki boshqa yuridik shaxs nomidan. Agar siz yuridik shaxs nomidan harakat qilsangiz, ushbu Shartnoma Kompaniya va ushbu yuridik shaxs o'rtasidagi shartnomani tashkil etadi va siz ushbu yuridik shaxs va uning afillanganlarini ushbu Shartnomaga bog'lash vakolatiga ega ekanligingizni tasdiqlaysiz. Ushbu Shartnoma davomida \"siz\" yoki \"sizning\" atamalari shaxsan o'zingizni va/yoki siz nomidan harakat qilayotgan yuridik shaxsni anglatadi.",
+    "introduction": "Ushbu xizmat shartlari (\"Shartnoma\") siz va Pensilvaniya cheklangan javobgarlik korporatsiyasi ElbrusElogs Inc, uning xodimlari, maslahatchilari, direktorlari, vorislar, sho'ba kompaniyalari, afillanganlar va tayinlanganlar (\"Kompaniya\", \"biz\" yoki \"biz\") o'rtasidagi shartnomani tashkil etadi va biz tomonimizdan taklif qilinadigan xizmatlardan foydalanish shartlarini boshqaradi, o'zingiz nomidan yoki siz vakolat berilgan kompaniya yoki boshqa yuridik shaxs nomidan. Agar siz yuridik shaxs nomidan harakat qilsangiz, ushbu Shartnoma Kompaniya va ushbu yuridik shaxs o'rtasidagi shartnomani tashkil etadi va siz ushbu yuridik shaxs va uning afillanganlarini ushbu Shartnomaga bog'lash vakolatiga ega ekanligingizni tasdiqlaysiz. Ushbu Shartnoma davomida \"siz\" yoki \"sizning\" atamalari shaxsan o'zingizni va/yoki siz nomidan harakat qilayotgan yuridik shaxsni anglatadi.",
     "sections": {
       "description": {
         "title": "Xizmat tavsifi",
@@ -444,7 +444,7 @@
   },
   "privacyPage": {
     "title": "Maxfiylik siyosati",
-    "introduction": "TheBestELD Inc sizning maxfiyligingizni juda jiddiy qabul qiladi. Ushbu Maxfiylik siyosati Xizmatga (Foydalanish shartlarimizda belgilanganidek) tegishli. Ushbu Maxfiylik siyosatida ishlatilgan, lekin aniqlanmagan har qanday atamalar Foydalanish shartlarimizda ularga berilgan ma'nolarga ega.",
+    "introduction": "ElbrusElogs Inc sizning maxfiyligingizni juda jiddiy qabul qiladi. Ushbu Maxfiylik siyosati Xizmatga (Foydalanish shartlarimizda belgilanganidek) tegishli. Ushbu Maxfiylik siyosatida ishlatilgan, lekin aniqlanmagan har qanday atamalar Foydalanish shartlarimizda ularga berilgan ma'nolarga ega.",
     "sections": {
       "collect": {
         "title": "Biz to'playdigan ma'lumotlar",
@@ -508,7 +508,7 @@
   },
   "returnsPage": {
     "title": "Qaytarish shartlari",
-    "introduction": "TheBestELD dan onlayn sotib olingan mahsulotni qaytarishda yodda tutishingiz kerak bo'lgan bir necha muhim narsalar mavjud:",
+    "introduction": "ElbrusElogs dan onlayn sotib olingan mahsulotni qaytarishda yodda tutishingiz kerak bo'lgan bir necha muhim narsalar mavjud:",
     "sections": {
       "policy": {
         "title": "Qaytarish siyosati",
@@ -528,12 +528,12 @@
           "condition": "Mahsulotlar yangi holatida qaytarilishi kerak. Shikastlangan, sanitariyaga zid, bo'rtib chiqqan yoki tirnalgan mahsulotlar qaytarishni rad qilishi mumkin.",
           "packaging": "Mahsulotni jo'natish jarayonida shikastlanmasligi uchun ehtiyotkorlik bilan qadoqlang. Biz quti va pufakchali o'ramadan foydalanishni tavsiya qilamiz.",
           "documentation": "Iltimos, qaytarayotgan mahsulotingiz uni olganda kiritilgan barcha simlar, adaptorlar va hujjatlar bilan qayta qadoqlanganligiga ishonch hosil qiling.",
-          "shipping": "Paketni kuzatishingiz uchun Insured UPS kabi xavfsiz jo'natish usulidan foydalanish tavsiya etiladi. TheBestELD tranzit vaqtida yo'qolgan mahsulotlar uchun javobgar emas va mahsulot qabul qilinmaguncha qaytarishni amalga oshirib bo'lmaydi."
+          "shipping": "Paketni kuzatishingiz uchun Insured UPS kabi xavfsiz jo'natish usulidan foydalanish tavsiya etiladi. ElbrusElogs tranzit vaqtida yo'qolgan mahsulotlar uchun javobgar emas va mahsulot qabul qilinmaguncha qaytarishni amalga oshirib bo'lmaydi."
         }
       },
       "address": {
         "title": "Qaytarish manzili",
-        "content": "Barcha qaytarilayotgan mahsulotlar quyidagi manzilga yuborilishi kerak:\nTheBestELD\n340 Webster Ave\nBrooklyn NY 11230\n\nBiz mahsulotingizni olgandan so'ng, darhol pulni qaytarish boshlanadi. Agar siz olib ketish mahsulotini bekor qilgan bo'lsangiz va sizdan to'lov olingan bo'lsa, biz bekor qilish so'rovingizni yuborganingizdan keyin darhol pulni qaytarishni boshlaymiz."
+        "content": "Barcha qaytarilayotgan mahsulotlar quyidagi manzilga yuborilishi kerak:\nElbrusElogs\n340 Webster Ave\nBrooklyn NY 11230\n\nBiz mahsulotingizni olgandan so'ng, darhol pulni qaytarish boshlanadi. Agar siz olib ketish mahsulotini bekor qilgan bo'lsangiz va sizdan to'lov olingan bo'lsa, biz bekor qilish so'rovingizni yuborganingizdan keyin darhol pulni qaytarishni boshlaymiz."
       },
       "refunds": {
         "title": "Pul qaytarish",
@@ -550,11 +550,11 @@
   },
   "warrantyPage": {
     "title": "Mahsulot kafolati",
-    "introduction": "TheBestELD mahsulotlarimiz sifatini kafolatlaydi. Bizning kafolat siyosatimiz ELD qurilmalari va aksessuarlarni xarid qilishda xotirjamlik berish uchun ishlab chiqilgan.",
+    "introduction": "ElbrusElogs mahsulotlarimiz sifatini kafolatlaydi. Bizning kafolat siyosatimiz ELD qurilmalari va aksessuarlarni xarid qilishda xotirjamlik berish uchun ishlab chiqilgan.",
     "sections": {
       "policy": {
         "title": "Kafolat siyosati",
-        "content": "TheBestELD mijozga, tegishli Kafolat davri mobaynida har qanday Apparat materiallar va ishlab chiqarishda nuqsonlardan xoli bo'lishini kafolatlaydi. Agar tegishli TheBestELD ma'lumotlar varaqasida boshqacha ko'rsatilmagan bo'lsa, barcha apparat mahsulotlari bir yillik kafolat bilan keladi."
+        "content": "ElbrusElogs mijozga, tegishli Kafolat davri mobaynida har qanday Apparat materiallar va ishlab chiqarishda nuqsonlardan xoli bo'lishini kafolatlaydi. Agar tegishli ElbrusElogs ma'lumotlar varaqasida boshqacha ko'rsatilmagan bo'lsa, barcha apparat mahsulotlari bir yillik kafolat bilan keladi."
       },
       "coverage": {
         "title": "Nima kafolatlangan",
@@ -580,14 +580,14 @@
         "content": "Bu majburiyatlar mahsulotlardan to'g'ri foydalanishga bog'liq va quyidagilarni qamrab olmaydi:",
         "points": {
           "physical": "Mahsulot ko'rsatmalariga muvofiq bo'lmagan foydalanish",
-          "unauthorized": "Mahsulotni TheBestELD tomonidan o'rnatilmagan yoki taqdim etilmagan har qanday xususiyatlar, aksessuarlar, dasturiy ta'minot yoki boshqa materiallar bilan birlashtirish yoki integratsiya qilish (agar TheBestELD ning aniq roziligi bo'lmasa)",
+          "unauthorized": "Mahsulotni ElbrusElogs tomonidan o'rnatilmagan yoki taqdim etilmagan har qanday xususiyatlar, aksessuarlar, dasturiy ta'minot yoki boshqa materiallar bilan birlashtirish yoki integratsiya qilish (agar ElbrusElogs ning aniq roziligi bo'lmasa)",
           "misuse": "Mahsulotlardagi shtrix-kod seriya raqamlari yoki boshqa identifikatsiya belgilarini ruxsatsiz o'zgartirish, olib tashlash yoki o'chirish",
-          "software": "TheBestELD to'lovni olmagan mahsulotlar"
+          "software": "ElbrusElogs to'lovni olmagan mahsulotlar"
         }
       },
       "extended": {
         "title": "Qo'shimcha ma'lumot",
-        "content": "Cheklangan Apparat Kafolati Apparat bilan Internet ulanishini va elektr quvvatidagi uzilishlarni qamrab olmaydi. Ushbu Cheklangan Apparat Kafolati faqat Apparatning haqiqiy xaridori va yakuniy foydalanuvchisiga tegishli bo'ladi, va ushbu Cheklangan Apparat Kafolati o'zgartirilgan yoki modifikatsiya qilingan, yoki ishlatilgan holatda sotib olingan yoki TheBestELD dan boshqa har qanday manbadan sotib olingan mahsulotlar uchun mavjud emas."
+        "content": "Cheklangan Apparat Kafolati Apparat bilan Internet ulanishini va elektr quvvatidagi uzilishlarni qamrab olmaydi. Ushbu Cheklangan Apparat Kafolati faqat Apparatning haqiqiy xaridori va yakuniy foydalanuvchisiga tegishli bo'ladi, va ushbu Cheklangan Apparat Kafolati o'zgartirilgan yoki modifikatsiya qilingan, yoki ishlatilgan holatda sotib olingan yoki ElbrusElogs dan boshqa har qanday manbadan sotib olingan mahsulotlar uchun mavjud emas."
       }
     },
     "legalNotice": {

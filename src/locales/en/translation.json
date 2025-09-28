@@ -232,18 +232,18 @@
     "alertMessage": "Download link is not available at the moment",
     "joinOthers": "JOIN THE OTHERS",
     "title": "Download",
-    "subtitle": "Build your Fleet Power with TheBestELD",
+    "subtitle": "Build your Fleet Power with ElbrusElogs",
     "downloads": "downloads",
     "downloadNow": "Download Now",
     "applications": "Applications",
     "others": "Others",
     "androidApp": {
       "alt": "Android App Preview",
-      "title": "TheBestELD Driver Android App"
+      "title": "ElbrusElogs Driver Android App"
     },
     "iosApp": {
       "alt": "iOS App",
-      "title": "TheBestELD Driver iOS App"
+      "title": "ElbrusElogs Driver iOS App"
     },
     "truckSticker": {
       "alt": "Truck Sticker",
@@ -290,7 +290,7 @@
     "title": "Chat to our friendly team",
     "subtitle": "We'd love to hear from you. Please fill out this form or shoot us an email.",
     "contactUs": "Contact Us for ELD Subscription",
-    "company": "TheBestELD",
+    "company": "ElbrusElogs",
     "supportTeam": "Support team",
     "salesTeam": "Sales team",
     "form": {
@@ -302,7 +302,7 @@
       "captcha": "I'm not a robot",
       "submit": "Submit",
       "submitting": "Submitting...",
-      "consent": "I agree to receive communications from TheBestELD.",
+      "consent": "I agree to receive communications from ElbrusElogs.",
       "invalidEmail": "Invalid email format"
     },
     "supportContact": {
@@ -366,7 +366,7 @@
     "productDetails": {
       "specifications": "Specifications",
       "compatibility": "Compatibility",
-      "compatibilityText": "Compatible with all TheBestELD devices",
+      "compatibilityText": "Compatible with all ElbrusElogs devices",
       "warranty": "Warranty",
       "warrantyText": "1 year limited warranty",
       "shipping": "Shipping",
@@ -420,7 +420,7 @@
   },
   "termsPage": {
     "title": "Terms",
-    "introduction": "These terms of service (\"Agreement\") constitute a contract between you and TheBestELD Inc, a Pennsylvania limited liability corporation, together with its employees, consultants, directors, successors, subsidiaries, affiliates, and assignees (\"Company\", \"we\" or \"us\") and governs the terms under which you may use services offered by us, whether on behalf of yourself or on behalf of a company or other entity for which you are authorized to act. If you are acting on behalf of an entity, this Agreement constitutes a contract between the Company and that entity, and you acknowledge that you have the authority to bind such entity and its affiliates to this Agreement. The terms \"you\" or \"your\" throughout this Agreement shall mean you personally and/or the entity on whose behalf you are acting.",
+    "introduction": "These terms of service (\"Agreement\") constitute a contract between you and ElbrusElogs Inc, a Pennsylvania limited liability corporation, together with its employees, consultants, directors, successors, subsidiaries, affiliates, and assignees (\"Company\", \"we\" or \"us\") and governs the terms under which you may use services offered by us, whether on behalf of yourself or on behalf of a company or other entity for which you are authorized to act. If you are acting on behalf of an entity, this Agreement constitutes a contract between the Company and that entity, and you acknowledge that you have the authority to bind such entity and its affiliates to this Agreement. The terms \"you\" or \"your\" throughout this Agreement shall mean you personally and/or the entity on whose behalf you are acting.",
     "sections": {
       "description": {
         "title": "Description of the Service",
@@ -444,7 +444,7 @@
   },
   "privacyPage": {
     "title": "Privacy",
-    "introduction": "TheBestELD Inc takes your privacy very seriously. This Privacy Policy applies to the Service (as defined in our Terms of Service). Any terms used but not defined in this Privacy Policy have the meanings assigned to them in our Terms of Service.",
+    "introduction": "ElbrusElogs Inc takes your privacy very seriously. This Privacy Policy applies to the Service (as defined in our Terms of Service). Any terms used but not defined in this Privacy Policy have the meanings assigned to them in our Terms of Service.",
     "sections": {
       "collect": {
         "title": "Information We Collect",
@@ -508,7 +508,7 @@
   },
   "returnsPage": {
     "title": "Returns",
-    "introduction": "There are a few important things to keep in mind when returning a product you purchased online from TheBestELD:",
+    "introduction": "There are a few important things to keep in mind when returning a product you purchased online from ElbrusElogs:",
     "sections": {
       "policy": {
         "title": "Return Policy",
@@ -528,12 +528,12 @@
           "condition": "Items need to be returned in a like-new condition. Items that are damaged, unsanitary, dented or scratched may be denied a return.",
           "packaging": "Pack the item carefully so that it will not be damaged during the shipping process. We suggest using a box and bubble wrap.",
           "documentation": "Please ensure that the item you're returning is repackaged with all the cords, adapters and documentation that were included when you received it.",
-          "shipping": "It is recommended to use a secure shipping method such as Insured UPS to send the item so that you have tracking for the package. TheBestELD is not responsible for items lost in transit and a return can not be processed until the item is received."
+          "shipping": "It is recommended to use a secure shipping method such as Insured UPS to send the item so that you have tracking for the package. ElbrusElogs is not responsible for items lost in transit and a return can not be processed until the item is received."
         }
       },
       "address": {
         "title": "Return Address",
-        "content": "All returns should be sent to the following address:\nTheBestELD\n340 Webster Ave\nBrooklyn NY 11230\n\nOnce we receive your item, a refund is initiated immediately. If you canceled a pickup item, and you were billed for it, we initiate your refund immediately after you submit your cancellation request."
+        "content": "All returns should be sent to the following address:\nElbrusElogs\n340 Webster Ave\nBrooklyn NY 11230\n\nOnce we receive your item, a refund is initiated immediately. If you canceled a pickup item, and you were billed for it, we initiate your refund immediately after you submit your cancellation request."
       },
       "refunds": {
         "title": "Refunds",
@@ -550,11 +550,11 @@
   },
   "warrantyPage": {
     "title": "Product Warranty",
-    "introduction": "TheBestELD stands behind the quality of our products. Our warranty policy is designed to give you peace of mind when purchasing our ELD devices and accessories.",
+    "introduction": "ElbrusElogs stands behind the quality of our products. Our warranty policy is designed to give you peace of mind when purchasing our ELD devices and accessories.",
     "sections": {
       "policy": {
         "title": "Warranty Policy",
-        "content": "TheBestELD warrants to Customer that any Hardware shall be free of defects in materials and workmanship, for the duration of the applicable Warranty Period. All hardware products come with a one year warranty unless otherwise specified on the relevant TheBestELD datasheet."
+        "content": "ElbrusElogs warrants to Customer that any Hardware shall be free of defects in materials and workmanship, for the duration of the applicable Warranty Period. All hardware products come with a one year warranty unless otherwise specified on the relevant ElbrusElogs datasheet."
       },
       "coverage": {
         "title": "What's Covered",
@@ -580,14 +580,14 @@
         "content": "These obligations are dependent upon proper use of the products and do not cover:",
         "points": {
           "physical": "Usage that is not in accordance with product instructions",
-          "unauthorized": "Combination or integration of the product with any features, accessories, software or other materials not installed or provided by TheBestELD (unless with TheBestELD's explicit consent)",
+          "unauthorized": "Combination or integration of the product with any features, accessories, software or other materials not installed or provided by ElbrusElogs (unless with ElbrusElogs's explicit consent)",
           "misuse": "Unauthorized modification, removal or erasing of the barcode serial numbers or other identifying marks on the products",
-          "software": "Products for which TheBestELD has not received payment"
+          "software": "Products for which ElbrusElogs has not received payment"
         }
       },
       "extended": {
         "title": "Additional Information",
-        "content": "The Limited Hardware Warranty does not cover Internet connectivity with the Hardware and interruptions in electric power. This Limited Hardware Warranty will only apply to the actual purchaser and end-user of the Hardware, and this Limited Hardware Warranty is not available for products that have been altered or modified, or that were purchased used or from any source other than TheBestELD."
+        "content": "The Limited Hardware Warranty does not cover Internet connectivity with the Hardware and interruptions in electric power. This Limited Hardware Warranty will only apply to the actual purchaser and end-user of the Hardware, and this Limited Hardware Warranty is not available for products that have been altered or modified, or that were purchased used or from any source other than ElbrusElogs."
       }
     },
     "legalNotice": {
