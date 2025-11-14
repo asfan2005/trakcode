@@ -63,7 +63,7 @@ const EvoEldLanding = () => {
                     scrollY > 50 ? "text-gray-900" : "text-white"
                   }`}
                 >
-                  Elbrus Elogs
+                  Navigate Eld
                 </span>
               </div>
 
